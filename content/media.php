@@ -79,34 +79,34 @@
             <img src="../img/media/IR/1.jpg" class="mx-auto d-block img-fluid w-100" alt="ibadah raya">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/IR/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/IR/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/IR/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/IR/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/IR/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/IR/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/IR/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/IR/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/IR/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/IR/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/IR/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/IR/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/IR/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/IR/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/IR/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/IR/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/IR/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/IR/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/IR/11.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/IR/11.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
         </div>
         <div class="carousel-caption d-md-block">
@@ -137,25 +137,25 @@
             <img src="../img/media/PK/1.jpg" class="mx-auto d-block img-fluid w-100" alt="perjamuan kasih">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PK/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PK/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PK/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PK/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PK/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PK/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PK/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PK/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PK/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PK/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PK/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PK/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PK/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PK/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
         </div>
         <div class="carousel-caption d-md-block">
@@ -184,19 +184,19 @@
             <img src="../img/media/PJS/1.jpg" class="mx-auto d-block img-fluid w-100" alt="pujian suara">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PJS/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PJS/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PJS/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PJS/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PJS/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PJS/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PJS/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PJS/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/PJS/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/PJS/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
         </div>
         <div class="carousel-caption d-md-block">
@@ -226,22 +226,22 @@
             <img src="../img/media/GGK/1.jpg" class="mx-auto d-block img-fluid w-100" alt="god grace kids">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GGK/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GGK/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GGK/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GGK/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GGK/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GGK/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GGK/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GGK/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GGK/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GGK/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GGK/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GGK/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
         </div>
         <div class="carousel-caption d-md-block">
@@ -276,34 +276,34 @@
             <img src="../img/media/YGSM/1.jpg" class="mx-auto d-block img-fluid w-100" alt="youth grace ministry">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/YGSM/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/YGSM/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/YGSM/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/YGSM/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/YGSM/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/YGSM/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/YGSM/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/YGSM/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/YGSM/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/YGSM/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/YGSM/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/YGSM/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/YGSM/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/YGSM/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/YGSM/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/YGSM/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/YGSM/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/YGSM/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/YGSM/11.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/YGSM/11.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <img src="../img/media/YGSM/12.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
@@ -336,22 +336,22 @@
             <img src="../img/media/MLYN/1.jpg" class="mx-auto d-block img-fluid w-100" alt="melayani">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/MLYN/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/MLYN/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/MLYN/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/MLYN/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/MLYN/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/MLYN/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/MLYN/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/MLYN/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/MLYN/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/MLYN/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/MLYN/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/MLYN/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
         </div>
         <div class="carousel-caption d-md-block">
@@ -385,31 +385,31 @@
             <img src="../img/media/GWT/1.jpg" class="mx-auto d-block img-fluid w-100" alt="grace worshipers training">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
         </div>
         <div class="carousel-caption d-md-block">
@@ -454,34 +454,34 @@
             <img src="../img/media/BA/1.jpg" class="mx-auto d-block img-fluid w-100" alt="baptisan air">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/11.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/11.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <img src="../img/media/BA/12.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
@@ -520,7 +520,16 @@
       </div>
     </div>
     <div class="container mt-4" id="worship mision manado - MIS-MANADO">
-      <img src="../img/media/Mis-Manado/Mis-Manado.jpg" class="mx-auto d-block img-fluid w-100  border border-5 border-secondary" alt="worship mision manado">
+      <div id="carousel10" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="../img/media/Mis-Manado/Mis-Manado.jpg" class="mx-auto d-block img-fluid w-100  border border-5 border-secondary" alt="worship mision manado">
+          </div>
+        </div>
+        <div class="carousel-caption d-md-block">
+          <h3> WORSHIP MISSION MANADO </h3>
+        </div>
+      </div>
     </div>
     <div class="container mt-4" id="worship mision kalteng - MIS-KALTENG">
       <div id="carousel10" class="carousel slide" data-bs-ride="carousel">
@@ -542,31 +551,31 @@
             <img src="../img/media/Mis-Kalteng/1.jpg" class="mx-auto d-block img-fluid w-100" alt="worship mision kalteng">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Kalteng/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Kalteng/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Kalteng/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Kalteng/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Kalteng/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Kalteng/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Kalteng/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Kalteng/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Kalteng/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Kalteng/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Kalteng/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Kalteng/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Kalteng/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Kalteng/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Kalteng/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Kalteng/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Kalteng/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Kalteng/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <img src="../img/media/Mis-Kalteng/11.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
@@ -606,37 +615,37 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
-            <img src="../img/media/Mis-Waisai/1.JPG" class="mx-auto d-block img-fluid w-100" alt="worship mision waisai">
+            <img src="../img/media/Mis-Waisai/1.jpg" class="mx-auto d-block img-fluid w-100" alt="worship mision waisai">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Waisai/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Waisai/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Waisai/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Waisai/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Waisai/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Waisai/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Waisai/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Waisai/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Waisai/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Waisai/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Waisai/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Waisai/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Waisai/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Waisai/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Waisai/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Waisai/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Waisai/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Waisai/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/Mis-Waisai/11.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/Mis-Waisai/11.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <img src="../img/media/Mis-Waisai/12.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
@@ -687,31 +696,31 @@
             <img src="../img/media/KAT/1.jpg" class="mx-auto d-block img-fluid w-100" alt="kunjungan akhir tahun">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/KAT/2.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/KAT/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/KAT/3.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/KAT/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/KAT/4.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/KAT/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/KAT/5.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/KAT/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/KAT/6.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/KAT/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/KAT/7.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/KAT/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/KAT/8.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/KAT/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/KAT/9.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/KAT/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/KAT/10.JPG" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/KAT/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
         </div>
         <div class="carousel-caption d-md-block">
