@@ -134,6 +134,9 @@ p {
   .card-text {
     text-indent: 25px;
   }
+  #loc{
+    height: 70%;
+  }
 }
 
 /* social gembala */
