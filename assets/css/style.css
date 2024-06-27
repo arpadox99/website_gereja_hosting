@@ -1066,8 +1066,8 @@ span#jsspan {
     width: 85%;
     margin-top: 20px;
   }
-}/* ukuran ministries js saat layar */
-@media (max-width: 400px) {
+} /* ukuran ministries js saat layar */
+@media (max-width: 375px) {
   .text-box {
     width: 85%;
     margin-top: 20px;
