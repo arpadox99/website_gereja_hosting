@@ -448,37 +448,46 @@
           <button type="button" data-bs-target="#carousel7" data-bs-slide-to="7" aria-label="Slide 8"></button>
           <button type="button" data-bs-target="#carousel7" data-bs-slide-to="8" aria-label="Slide 9"></button>
           <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 11"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 12"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 13"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 14"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 15"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 16"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 17"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 18"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 19"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
-            <img src="../img/media/GWT/1.jpg" class="mx-auto d-block img-fluid w-100" alt="grace worshipers training">
+            <img src="../img/media/BA/1.jpg" class="mx-auto d-block img-fluid w-100" alt="grace worshipers training">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/GWT/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
         </div>
         <div class="carousel-caption d-md-block">
