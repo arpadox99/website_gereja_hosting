@@ -462,10 +462,10 @@
           <div class="carousel-item active" data-bs-interval="5000">
             <img src="/img/media/BA/1.jpg" class="mx-auto d-block img-fluid w-100" alt="baptisan air">
           </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/2.jpg" class="mx-auto d-block img-fluid w-100" alt="gambar2">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="/img/media/BA/2.jpg" class="mx-auto d-block img-fluid w-100" alt="baptisan air">
           </div>
-          <div class="carousel-item" data-bs-interval="5000">
+          <!-- <div class="carousel-item" data-bs-interval="5000">
             <img src="../img/media/BA/3.jpg" class="mx-auto d-block img-fluid w-100" alt="gmbr99">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
@@ -515,7 +515,7 @@
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <img src="../img/media/BA/19.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
-          </div>
+          </div> -->
         </div>
         <div class="carousel-caption d-md-block">
           <h3> BAPTISAN AIR </h3>
