@@ -351,6 +351,11 @@ img#IPSpage {
     height: 200px; /* Tinggi menyesuaikan */
   }
 }
+@media (max-width: 376px) {
+  a#text h3 {
+    font-size: 0.55rem;
+  }
+}
 
 .Halaman-ygsm {
   position: relative;
@@ -390,13 +395,19 @@ h2.IDP a {
 /* services menu */
 
 #bannerserv {
-  margin: 40px auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
   border-radius: 3%;
 }
 #textserv {
   font-size: 3rem;
 }
 p.serv {
+  text-indent: 50px;
+  text-align: justify;
+}
+p.serv#doapuasa {
+  font-size: 2.5rem;
   text-indent: 50px;
   text-align: justify;
 }
@@ -408,6 +419,9 @@ p.serv {
     text-align: justify;
   }
   #textserv {
+    font-size: 1.5rem;
+  }
+  p.serv#doapuasa {
     font-size: 1.5rem;
   }
 }
@@ -816,6 +830,37 @@ hr.thick-hr {
 }
 
 /* ukuran info saat layar hp besar*/
+@media (min-width: 1280px) and (max-width: 1300px) {
+  .contactwa {
+    margin-top: -330px;
+    margin-left: -5px;
+    margin-bottom: 0;
+  }
+  .card.QR {
+    width: 160px;
+    margin-top: -660px;
+    margin-right: 115px;
+    margin-bottom: 0px;
+  }
+  .card.QR .card-body {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 5px;
+  }
+  .contactwa .wa-button {
+    border-radius: 5px;
+    font-size: 1.8rem;
+    margin-left: 18px;
+    padding: 2px 5px;
+  }
+  .contactwa .IconWhatsapp {
+    margin-right: 5px;
+  }
+  .contactwa .IconWhatsapp img {
+    height: 40px;
+  }
+}
+/* ukuran info saat layar hp besar*/
 @media (max-width: 768px) {
   .contactwa {
     margin-top: -110px;
@@ -994,7 +1039,7 @@ span#jsspan {
   border: 2px solid #000000;
 }
 .content {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: justify;
   text-indent: 40px;
 }
@@ -1017,12 +1062,17 @@ span#jsspan {
     margin-left: auto;
     margin-right: auto;
   }
+  .text-box {
+    width: 85%;
+    margin-top: 20px;
+  }
 }
 
 p.fontjs {
   font-family: "Lexend Deca";
   font-size: 2rem;
-} /* ukuran ministries js saat layar */
+}
+/* ukuran ministries js saat layar */
 @media (min-width: 1280px) and (max-width: 1300px) {
   p.fontjs {
     font-size: 1.5rem;

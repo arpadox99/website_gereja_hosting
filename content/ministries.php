@@ -163,7 +163,7 @@
             </div>
           </div>
         </div><br>
-      </div><br>
+      </div>
     </div>
     <div class="ministriesfooter">
       <img src="../img/Ministries/toserve.png" class="mx-auto d-block img-fluid">
