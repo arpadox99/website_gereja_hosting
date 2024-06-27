@@ -60,7 +60,7 @@
   <div id="media">
     <img src="../img/media/banner.jpg" class="mx-auto d-block img-fluid" alt="banner media">
     <div class="container mt-4" id="ibadah raya - IR">
-      <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+      <div id="carousel1" class="carousel slide carousel-fade">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
