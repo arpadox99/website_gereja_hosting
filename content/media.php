@@ -438,25 +438,25 @@
     <div class="container mt-4" id="baptisan air - BA">
       <div id="carousel9" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="5" aria-label="Slide 6"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="6" aria-label="Slide 7"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="7" aria-label="Slide 8"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="8" aria-label="Slide 9"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 10"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 11"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 12"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 13"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 14"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 15"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 16"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 17"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 18"></button>
-          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 19"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 11"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 12"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 13"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 14"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 15"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 16"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 17"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 18"></button>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 19"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
@@ -488,6 +488,33 @@
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <img src="../img/media/BA/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/11.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/12.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/13.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/14.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/15.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/16.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/17.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/18.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="../img/media/BA/19.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
         </div>
         <div class="carousel-caption d-md-block">
