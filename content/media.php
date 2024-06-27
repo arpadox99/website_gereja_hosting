@@ -413,7 +413,7 @@
           </div>
         </div>
         <div class="carousel-caption d-md-block">
-          <h3> GRACE WORSHIPERS TRAINING </h3>
+          <h3> GRACE WORSHIPPERS TRAINING </h3>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
