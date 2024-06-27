@@ -1023,7 +1023,7 @@ p.fontjs {
   font-family: "Lexend Deca";
   font-size: 2rem;
 } /* ukuran ministries js saat layar */
-@media (min-width: 1280) {
+@media (min-width: 1280px) {
   p.fontjs {
     font-size: 1rem;
   }
