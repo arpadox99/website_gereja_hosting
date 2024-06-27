@@ -437,85 +437,49 @@
     </div>
     <div class="container mt-4" id="baptisan air - BA">
       <div id="carousel9" class="carousel slide" data-bs-ride="carousel">
-        <!-- <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="5" aria-label="Slide 6"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="6" aria-label="Slide 7"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="7" aria-label="Slide 8"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="8" aria-label="Slide 9"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="9" aria-label="Slide 10"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="10" aria-label="Slide 11"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="11" aria-label="Slide 12"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="12" aria-label="Slide 13"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="13" aria-label="Slide 14"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="14" aria-label="Slide 15"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="15" aria-label="Slide 16"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="16" aria-label="Slide 17"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="17" aria-label="Slide 16"></button>
-          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="18" aria-label="Slide 19"></button>
-        </div> -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="9" aria-label="Slide 10"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
-            <img src="../img/media/BA/1.jpg" class="mx-auto d-block img-fluid w-100" alt="baptisan air">
-          </div>
-          <div class="carousel-item active" data-bs-interval="5000">
-            <img src="\img\media\BA\2.jpg" class="mx-auto d-block img-fluid w-100" alt="baptisan air">
-          </div>
-          <!-- <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/3.jpg" class="mx-auto d-block img-fluid w-100" alt="gmbr99">
+            <img src="../img/media/GWT/1.jpg" class="mx-auto d-block img-fluid w-100" alt="grace worshipers training">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/11.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/12.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/GWT/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/13.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/14.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/15.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/16.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/17.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/18.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/19.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
-          </div> -->
         </div>
         <div class="carousel-caption d-md-block">
           <h3> BAPTISAN AIR </h3>
