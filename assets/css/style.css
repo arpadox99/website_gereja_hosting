@@ -1066,6 +1066,12 @@ span#jsspan {
     width: 85%;
     margin-top: 20px;
   }
+}/* ukuran ministries js saat layar */
+@media (max-width: 400px) {
+  .text-box {
+    width: 85%;
+    margin-top: 20px;
+  }
 }
 
 p.fontjs {
