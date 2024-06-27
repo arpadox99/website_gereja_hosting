@@ -1025,7 +1025,7 @@ p.fontjs {
 } /* ukuran ministries js saat layar */
 @media (min-width: 1280px) and (max-width: 1300px) {
   p.fontjs {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 /* MInistry JS end */
