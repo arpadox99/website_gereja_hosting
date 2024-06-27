@@ -460,34 +460,34 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
-            <img src="../img/media/BA/1.png" class="mx-auto d-block img-fluid w-100" alt="grace worshipers training">
+            <img src="../img/media/BA/1.jpg" class="mx-auto d-block img-fluid w-100" alt="grace worshipers training">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/2.png" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/3.png" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/4.png" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/4.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/5.png" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/5.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/6.png" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/6.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/7.png" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/7.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/8.png" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/8.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/9.png" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/9.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/10.png" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="../img/media/BA/10.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
         </div>
         <div class="carousel-caption d-md-block">
