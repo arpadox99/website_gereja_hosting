@@ -425,6 +425,9 @@
     </div>
     <div class="container mt-4" id="penyerahan anak - PA">
       <img src="../img/media/PA/1.jpg" class="mx-auto d-block img-fluid w-100  border border-5 border-secondary" alt="banner penyerahan ank">
+      <div class="carousel-caption d-md-block">
+        <h3> PENYERAHAN ANAK </h3>
+      </div>
     </div>
     <div class="container mt-4" id="baptisan air - BA">
       <div id="carousel9" class="carousel slide" data-bs-ride="carousel">
