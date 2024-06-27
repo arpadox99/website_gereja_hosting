@@ -460,7 +460,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
-            <img src="/img/media/BA/1.jpg" class="mx-auto d-block img-fluid w-100" alt="baptisan air">
+            <img src="../img/media/BA/1.jpg" class="mx-auto d-block img-fluid w-100" alt="baptisan air">
           </div>
           <div class="carousel-item active" data-bs-interval="5000">
             <img src="\img\media\BA\2.jpg" class="mx-auto d-block img-fluid w-100" alt="baptisan air">
