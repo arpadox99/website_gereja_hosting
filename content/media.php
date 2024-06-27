@@ -457,7 +457,7 @@
             <img src="../img/media/BA/1.jpg" class="mx-auto d-block img-fluid w-100" alt="baptisan air">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="../img/media/BA/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
+            <img src="/img/media/BA/2.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <img src="../img/media/BA/3.jpg" class="mx-auto d-block img-fluid w-100" alt="...">
