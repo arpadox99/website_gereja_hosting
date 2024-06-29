@@ -180,6 +180,11 @@ p {
   .social-icon img {
     height: 15px;
   }
+} /* ukuran Gembala saat layar */
+@media (max-width: 360px) {
+  .possosmed {
+    margin-left: 40px;
+  }
 }
 /* --- */
 
@@ -327,8 +332,8 @@ img#IPSpage {
   }
   .text-serv {
     padding-bottom: 0;
-  }
-  .text-serv2 {
+    .text-serv2 {
+    }
     padding-bottom: 0;
   }
   a#text h3 {
@@ -1066,12 +1071,6 @@ span#jsspan {
     width: 85%;
     margin-top: 20px;
   }
-} /* ukuran ministries js saat layar */
-@media (max-width: 375px) {
-  .text-box {
-    width: 85%;
-    margin-top: 20px;
-  }
 }
 
 p.fontjs {
@@ -1081,7 +1080,7 @@ p.fontjs {
 /* ukuran ministries js saat layar */
 @media (min-width: 1280px) and (max-width: 1300px) {
   p.fontjs {
-    font-size: 1.5rem;
+    font-size: 1.88rem;
   }
 }
 /* MInistry JS end */
