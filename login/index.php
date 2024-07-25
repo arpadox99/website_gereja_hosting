@@ -32,37 +32,6 @@ require_once '../config/config.php';
         <a class="navbar-brand fw-bolder">
           GOD'S GRACE <span class="lighttext">MINISTRY </span>
         </a>
-        <div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarsExample07XL">
-          <ul class="navbar-nav ml-auto col-lg-10 justify-content-center">
-            <li class="nav-item px-3">
-              <a class="nav-link" href="../index.php"> Home </a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="../content/services.php"> Services </a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="../content/info.php"> Info </a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="../content/ministries.php"> Ministries </a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="../content/media.php"> Media </a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item px-3">
-              <a class="nav-link active" aria-current="page" href="#">
-                <i class="fas fa-sign-in-alt"></i> Login
-              </a>
-            </li>
-          </ul>
-        </div>
       </div>
     </nav>
   </header>
