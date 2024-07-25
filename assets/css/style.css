@@ -20,9 +20,20 @@ html {
 /* ukuran navbar saat layar */
 @media (max-width: 430px) {
   .navbar-brand img {
-    width: 55px; /* Adjust this size as needed */
+    width: 40px; /* Adjust this size as needed */
     height: auto; /* Adjust this size as needed */
-    margin-right: 10px;
+  }
+}
+@media (max-width: 476px) {
+  .navbar-brand img {
+    width: 45px; /* Adjust this size as needed */
+    height: auto; /* Adjust this size as needed */
+  }
+}
+@media (max-width: 486px) {
+  .navbar-brand img {
+    width: 45px; /* Adjust this size as needed */
+    height: auto; /* Adjust this size as needed */
   }
 }
 
