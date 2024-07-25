@@ -23,8 +23,8 @@ require_once '../config/config.php';
   <!-- navBar -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
-    <div class="container-xl d-flex justify-content-center align-items-center">
-    <a class="navbar-brand fw-bolder" href="#">
+      <div class="container-xl d-flex justify-content-center align-items-center">
+        <a class="navbar-brand fw-bolder" href="#">
           <img src="../img/Logo/gbi.png" width="50" height="50" alt="GBI">
           <img src="../img/Logo/ggm.png" width="50" height="50" alt="GGM">
         </a>
@@ -147,7 +147,7 @@ require_once '../config/config.php';
         </div>
         <div class="d-flex justify-content-center align-items-center">
           <div class="card QR">
-            <img src="../img/Info/QR.png" alt="QR">
+            <img src="../../img/Info/QR.png" alt="QR">
             <div class="card-body">
               SCAN ME!
             </div>

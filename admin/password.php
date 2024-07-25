@@ -17,10 +17,10 @@
 </head>
 
 <body>
-    <div class="container d-flex justify-content-center align-items-center">
+    <div class="container justify-content-center align-items-center">
         <div class="row justify-content-center">
             <div class="col-lg-5">
-                <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card shadow-lg border-0 rounded-lg mt-5">
                     <div class="card-header text-bg-danger">
                         <h3 class="text-center text-light fw-bold my-4"> Change Password </h3>
                     </div>
