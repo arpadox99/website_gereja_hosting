@@ -13,7 +13,7 @@
     <ol class="breadcrumb mb-4">
       <li class="breadcrumb-item active"> Tampilan Website Gereja GBI GOD'S GRACE </li>
     </ol>
-    <iframe src="../index.php" width="1250px" height="500"></iframe>
+    <iframe href="https://projectwebsitegereja.my.id/" width="1250px" height="500"></iframe>
   </div>
 </body>
 
