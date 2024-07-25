@@ -23,7 +23,7 @@ require_once '../config/config.php';
   <!-- navBar -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
-    <div class="container-xl d-flex justify-content-around align-items-center">
+    <div class="container-xl d-flex justify-content-center align-items-center">
     <a class="navbar-brand fw-bolder" href="#">
           <img src="../img/Logo/gbi.png" width="50" height="50" alt="GBI">
           <img src="../img/Logo/ggm.png" width="50" height="50" alt="GGM">

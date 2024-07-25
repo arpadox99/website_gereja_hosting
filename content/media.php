@@ -18,8 +18,8 @@
   <!-- navBar -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
-      <div class="container-xl d-flex justify-content-around align-items-center">
-        <a class="navbar-brand fw-bolder" href="#">
+    <div class="container-xl d-flex justify-content-center align-items-center">
+    <a class="navbar-brand fw-bolder" href="#">
           <img src="../img/Logo/gbi.png" width="50px" height="50px" alt="GBI">
           <img src="../img/Logo/ggm.png" width="50px" height="50px" alt="GGM">
         </a>

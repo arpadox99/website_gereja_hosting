@@ -19,7 +19,7 @@
   <!-- navBar -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
-      <div class="container-xl d-flex justify-content-around align-items-center">
+      <div class="container-xl d-flex justify-content-center align-items-center">
         <a class="navbar-brand" id="logonavbar" href="#">
           <img draggable="false" src="img/Logo/gbi.png" width="50" height="50" alt="GBI">
           <img draggable="false" src="img/Logo/ggm.png" width="50" height="50" alt="GGM">
