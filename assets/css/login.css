@@ -12,11 +12,7 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-.wrapper {
-  min-height: 100%;
-  position: relative;
-  padding-bottom: 90px;
-}
+
 
 /*form css*/
 .login-page {
@@ -96,7 +92,4 @@ body {
 }
 .login-page {
   height: 85vh;
-}
-body {
-  overflow-y: scroll;
 }
