@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:300);
 
-html,
 body {
   height: 100%;
   overflow: hidden;
@@ -27,7 +26,6 @@ body {
 }
 .form {
   position: relative;
-  z-index: 1;
   background: #fef7fa;
   max-width: 350px;
   margin: 0 30px;
