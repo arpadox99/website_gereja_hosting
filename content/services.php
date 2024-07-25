@@ -117,7 +117,7 @@
               IBADAH PRIA SEJATI
             </h3>
             <div>
-              <img src="../img/Service/PS.jpg" class="img-fluid" id="IPS" alt="Ibadah Pria Sejati"><br>
+              <img src="../img/Service/PS.JPG" class="img-fluid" id="IPS" alt="Ibadah Pria Sejati"><br>
             </div>
           </a>
         </div>
