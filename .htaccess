@@ -1,0 +1,7 @@
+# Prevent direct access to subdomain folder from main domain
+RewriteEngine On
+
+# Replace "admin" with the actual name of your subdomain folder
+RewriteCond %{HTTP_HOST} ^(www\.)?projectwebsitegereja\.my\.id$ [NC]
+RewriteCond %{REQUEST_URI} ^/admin/ [NC]
+RewriteRule ^(.*)$ - [F,L]
