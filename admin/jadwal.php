@@ -65,7 +65,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form action="index.php?page=simpanjadwal" method="POST">
+                <form action="index.php?page=jadwalsimpan" method="POST">
                     <div class="form-floating mb-3">
                         <input type="text" class="form-control" name="hari_tgl" placeholder="Masukkan Hari" required="" autocomplete="off">
                         <label for="floatingInput"> HARI </label>
