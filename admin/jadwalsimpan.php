@@ -6,7 +6,7 @@ $waktu_ibadah = filter_var($_POST['waktu_ibadah'], FILTER_SANITIZE_FULL_SPECIAL_
 $jenis_keg = filter_var($_POST['jenis_keg'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 $lokasi_ibadah = filter_var($_POST['lokasi_ibadah'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
-if (empty($id_jadwal) || empty($hari_tgl) || empty($waktu_ibadah) || empty($jenis_keg) || empty($lokasi_ibadah)) {
+if (empty($hari_tgl) || empty($waktu_ibadah) || empty($jenis_keg) || empty($lokasi_ibadah)) {
   echo "<script>
           alert('Data Tidak Boleh Kosong');
           window.location.href = 'index.php?page=jadwal';
