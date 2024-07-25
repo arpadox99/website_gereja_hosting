@@ -54,13 +54,6 @@ require_once '../config/config.php';
               <a class="nav-link" href="media.php"> Media </a>
             </li>
           </ul>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item px-3">
-              <a class="nav-link" href="../login/login.php">
-                <i class="fas fa-sign-in-alt"></i> Login
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </nav>
