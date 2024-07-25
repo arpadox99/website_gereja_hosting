@@ -129,7 +129,7 @@ require_once '../config/config.php';
             if ($data['role'] == 'ADMIN') {
               echo "<script>
                       alert('Halo adminku sayang!!!');
-                      window.location.href = '../admin/index.php';
+                      window.location.href = 'admin/index.php';
                     </script>";
             } else {
               // jika role bukan admin, tampilkan pesan selamat datang pengguna biasa
