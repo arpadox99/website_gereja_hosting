@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>GBI GOD'S GRACE</title>
+  <title> GBI GOD'S GRACE </title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
@@ -19,13 +19,13 @@
   <!-- navBar -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
-      <div class="container-xl d-flex justify-content-center align-items-center">
+      <div class="container-xl d-flex justify-content-between align-items-center">
         <a class="navbar-brand fw-bolder" href="#">
           <img draggable="false" src="img/Logo/gbi.png" width="50" height="50" alt="GBI">
           <img draggable="false" src="img/Logo/ggm.png" width="50" height="50" alt="GGM">
         </a>
         <a class="navbar-brand fw-bolder">
-          GOD'S GRACE <span class="lighttext">MINISTRY </span>
+          GOD'S GRACE <span class="lighttext"> MINISTRY </span>
         </a>
         <div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,9 +33,9 @@
           </button>
         </div>
         <div class="collapse navbar-collapse" id="navbarsExample07XL">
-          <ul class="navbar-nav ml-auto col-lg-10 justify-content-center">
+          <ul class="navbar-nav col-lg-10 justify-content-center">
             <li class="nav-item px-3">
-              <a class="nav-link active" id="home" aria-current="page" href="#banner"> Home </a>
+              <a class="nav-link active" aria-current="page" href="#banner"> Home </a>
             </li>
             <li class="nav-item px-3">
               <a class="nav-link" href="content/services.php"> Services </a>
@@ -48,6 +48,13 @@
             </li>
             <li class="nav-item px-3">
               <a class="nav-link" href="content/media.php"> Media </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-3">
+              <a class="nav-link" href="./login/login.php">
+                <i class="fas fa-right-to-bracket"></i> Login
+              </a>
             </li>
           </ul>
         </div>
@@ -81,7 +88,7 @@
           </div>
         </div>
         <div class="col-md-6 vimi">
-          <h2>Misi</h2>
+          <h2 id="misi">Misi</h2>
           <div class="container">
             <div class="card-body">
               <p class="card-text">
