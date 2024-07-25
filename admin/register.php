@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="container justify-content-center align-items-center" style="margin-top: 200px;">
+    <div class="container justify-content-center align-items-center" style="margin-top: 150px;">
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="card shadow-lg border-0 rounded-lg mt-5">
