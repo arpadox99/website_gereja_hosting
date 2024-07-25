@@ -132,7 +132,7 @@ require_once '../config/config.php';
     </div><br>
     <div>
       <div>
-        <img src="../img/info/kontak.png" class="mx-auto d-block img-fluid" alt="info-kontak">
+        <img src="img/info/kontak.png" class="mx-auto d-block img-fluid" alt="info-kontak">
       </div>
       <div class="container">
         <div class="d-flex justify-content-start align-items-start">
@@ -147,7 +147,7 @@ require_once '../config/config.php';
         </div>
         <div class="d-flex justify-content-center align-items-center">
           <div class="card QR">
-            <img src="../../img/Info/QR.png" alt="QR">
+            <img src="../img/Info/QR.png" alt="QR">
             <div class="card-body">
               SCAN ME!
             </div>
