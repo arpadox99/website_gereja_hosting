@@ -18,8 +18,8 @@
   <!-- navBar -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
-    <div class="container-xl d-flex justify-content-center align-items-center">
-    <a class="navbar-brand fw-bolder" href="#">
+      <div class="container-xl d-flex justify-content-center align-items-center">
+        <a class="navbar-brand fw-bolder" href="#">
           <img src="../img/Logo/gbi.png" width="50px" height="50px" alt="GBI">
           <img src="../img/Logo/ggm.png" width="50px" height="50px" alt="GGM">
         </a>
@@ -57,7 +57,39 @@
 
   <!-- isi -->
   <div id="media">
-    <img src="../img/media/banner.jpg" class="mx-auto d-block img-fluid" alt="banner media">
+    <div class="container mt-4" id="Banner">
+      <?php
+      include '../config/config.php';
+
+      // Ambil role dari query parameter atau variabel lain
+      $role = isset($_GET['role']) ? $_GET['role'] : '0'; // Ganti dengan nilai role yang sesuai
+
+      // Ambil data gambar dari database berdasarkan role
+      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+      $cari->bindParam(1, $role);
+      $cari->execute();
+
+      $jumlah = $cari->rowCount();
+      ?>
+      <div id="carousel0" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <?php
+          $isActive = true; // Menandai slide pertama sebagai aktif
+          // Loop untuk menampilkan slide berdasarkan data dari database
+          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+            $path_to_image = "../img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          ?>
+            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+            </div>
+            <?php
+            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
+            ?>
+          <?php endwhile; ?>
+        </div>
+      </div>
+    </div> <br>
     <div class="container mt-4" id="ibadah raya - IR">
       <?php
       include '../config/config.php';
