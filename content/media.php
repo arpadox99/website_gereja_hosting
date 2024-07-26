@@ -57,723 +57,731 @@
 
   <!-- isi -->
   <div id="media">
-    <div id="Banner" style="border: 0;">
-      <?php
-      include '../config/config.php';
+    <style>
+      .carousel-item img {
+        border: none;
+      }
 
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '28'; // Ganti dengan nilai role yang sesuai
+      .carousel-item {
+        border: none;
+      }
+    </style>
+    <?php
+    include '../config/config.php';
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '28'; // Ganti dengan nilai role yang sesuai
 
-      $jumlah = $cari->rowCount();
-      ?>
-      <div id="carousel01" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
+
+    $jumlah = $cari->rowCount();
+    ?>
+    <div id="carousel01" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="ibadah raya - IR">
-      <?php
-      include '../config/config.php';
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="ibadah raya - IR">
+    <?php
+    include '../config/config.php';
 
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '1'; // Ganti dengan nilai role yang sesuai
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '1'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
 
-      $jumlah = $cari->rowCount();
-      ?>
-      <div id="carousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
-          <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
-          ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> IBADAH RAYA </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+    $jumlah = $cari->rowCount();
+    ?>
+    <div id="carousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel1" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="perjamuan kasih - PK">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '2'; // Ganti dengan nilai role yang sesuai
-
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
-
-      $jumlah = $cari->rowCount();
-      ?>
-
-      <div id="carousel2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> PERJAMUAN KASIH </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="pujian suara - PJS">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '3'; // Ganti dengan nilai role yang sesuai
-
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
-
-      $jumlah = $cari->rowCount();
-      ?>
-
-      <div id="carousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
-          <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
-          ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> PERSEMBAHAN PUJIAN SETIAP SEKTOR </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+      <div class="carousel-caption d-md-block">
+        <h3> IBADAH RAYA </h3>
       </div>
-    </div> <br>
-    <!-- Caption Sektor Pisah -->
-    <div class="container mt-4" id="ibadah sektor - IS">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '4'; // Ganti dengan nilai role yang sesuai
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="perjamuan kasih - PK">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '2'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar, judul, dan deskripsi dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider, judul_slider, deskripsi_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
 
-      $jumlah = $cari->rowCount();
-      ?>
-      <div id="carousel4" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
-          <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          $slideData = []; // Array untuk menyimpan data slide
+    $jumlah = $cari->rowCount();
+    ?>
 
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) {
-            $slideData[] = $row;
-          }
-
-          foreach ($slideData as $index => $slide) :
-            $gambar_slider = htmlspecialchars($slide['gambar_slider']); // Mengamankan output gambar dari database
-            $judul_slider = htmlspecialchars($slide['judul_slider']); // Mengamankan output judul dari database
-            $deskripsi_slider = htmlspecialchars($slide['deskripsi_slider']); // Mengamankan output deskripsi dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
-          ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-              <div class="carousel-caption d-md-block">
-                <h3><?= $judul_slider ?></h3>
-                <p><?= $deskripsi_slider ?></p>
-              </div>
-            </div>
-          <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-          endforeach;
-          ?>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+    <div id="carousel2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
       </div>
-    </div> <br>
-    <!-- Caption Sektor Pisah -->
-    <div class="container mt-4" id="god grace kids - GGK">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '5'; // Ganti dengan nilai role yang sesuai
-
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
-
-      $jumlah = $cari->rowCount();
-      ?>
-
-      <div id="carousel5" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel5" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> GOD'S GRACE KIDS </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="youth grace ministry - YGSM">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '6'; // Ganti dengan nilai role yang sesuai
+      <div class="carousel-caption d-md-block">
+        <h3> PERJAMUAN KASIH </h3>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="pujian suara - PJS">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '3'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
 
-      $jumlah = $cari->rowCount();
-      ?>
+    $jumlah = $cari->rowCount();
+    ?>
 
-      <div id="carousel6" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel6" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
+    <div id="carousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> YOUTH GRACE MINISTRY </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="melayani - MLYN">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '7'; // Ganti dengan nilai role yang sesuai
+      <div class="carousel-caption d-md-block">
+        <h3> PERSEMBAHAN PUJIAN SETIAP SEKTOR </h3>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <!-- Caption Sektor Pisah -->
+  <div class="container mt-4" id="ibadah sektor - IS">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '4'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil data gambar, judul, dan deskripsi dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider, judul_slider, deskripsi_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
 
-      $jumlah = $cari->rowCount();
-      ?>
+    $jumlah = $cari->rowCount();
+    ?>
+    <div id="carousel4" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        $slideData = []; // Array untuk menyimpan data slide
 
-      <div id="carousel7" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel7" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) {
+          $slideData[] = $row;
+        }
+
+        foreach ($slideData as $index => $slide) :
+          $gambar_slider = htmlspecialchars($slide['gambar_slider']); // Mengamankan output gambar dari database
+          $judul_slider = htmlspecialchars($slide['judul_slider']); // Mengamankan output judul dari database
+          $deskripsi_slider = htmlspecialchars($slide['deskripsi_slider']); // Mengamankan output deskripsi dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+            <div class="carousel-caption d-md-block">
+              <h3><?= $judul_slider ?></h3>
+              <p><?= $deskripsi_slider ?></p>
+            </div>
+          </div>
+        <?php
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
+        endforeach;
+        ?>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <!-- Caption Sektor Pisah -->
+  <div class="container mt-4" id="god grace kids - GGK">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '5'; // Ganti dengan nilai role yang sesuai
+
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
+
+    $jumlah = $cari->rowCount();
+    ?>
+
+    <div id="carousel5" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> MELAYANI </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="grace worshipers training - GWT">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '8'; // Ganti dengan nilai role yang sesuai
+      <div class="carousel-caption d-md-block">
+        <h3> GOD'S GRACE KIDS </h3>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="youth grace ministry - YGSM">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '6'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
 
-      $jumlah = $cari->rowCount();
-      ?>
+    $jumlah = $cari->rowCount();
+    ?>
 
-      <div id="carousel8" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel8" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
+    <div id="carousel6" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel6" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> GRACE WORSHIPERS TRAINING </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="penyerahan anak - PA">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '9'; // Ganti dengan nilai role yang sesuai
+      <div class="carousel-caption d-md-block">
+        <h3> YOUTH GRACE MINISTRY </h3>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="melayani - MLYN">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '7'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
 
-      $jumlah = $cari->rowCount();
-      ?>
+    $jumlah = $cari->rowCount();
+    ?>
 
-      <div id="carousel9" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel9" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
+    <div id="carousel7" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel7" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> PENYERAHAN ANAK </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel9" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel9" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="baptisan air - BA">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '10'; // Ganti dengan nilai role yang sesuai
+      <div class="carousel-caption d-md-block">
+        <h3> MELAYANI </h3>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="grace worshipers training - GWT">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '8'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
 
-      $jumlah = $cari->rowCount();
-      ?>
+    $jumlah = $cari->rowCount();
+    ?>
 
-      <div id="carousel10" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel10" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
+    <div id="carousel8" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel8" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> BAPTISAN AIR </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel10" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel10" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="worship mision manado - MIS-MANADO">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '11'; // Ganti dengan nilai role yang sesuai
+      <div class="carousel-caption d-md-block">
+        <h3> GRACE WORSHIPERS TRAINING </h3>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="penyerahan anak - PA">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '9'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
 
-      $jumlah = $cari->rowCount();
-      ?>
+    $jumlah = $cari->rowCount();
+    ?>
 
-      <div id="carousel11" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel11" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
+    <div id="carousel9" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel9" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> WORSHIP MISSION MANADO </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel11" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel11" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="worship mision kalteng - MIS-KALTENG">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '12'; // Ganti dengan nilai role yang sesuai
+      <div class="carousel-caption d-md-block">
+        <h3> PENYERAHAN ANAK </h3>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel9" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel9" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="baptisan air - BA">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '10'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
 
-      $jumlah = $cari->rowCount();
-      ?>
+    $jumlah = $cari->rowCount();
+    ?>
 
-      <div id="carousel12" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel12" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
+    <div id="carousel10" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel10" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> WORSHIP MISSION KALTENG </h3>
-          <p> Kabupaten Tamiyanglayang</p>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel12" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel12" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="worship mision waisai - MIS-WAISAI">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '13'; // Ganti dengan nilai role yang sesuai
+      <div class="carousel-caption d-md-block">
+        <h3> BAPTISAN AIR </h3>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel10" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel10" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="worship mision manado - MIS-MANADO">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '11'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
 
-      $jumlah = $cari->rowCount();
-      ?>
+    $jumlah = $cari->rowCount();
+    ?>
 
-      <div id="carousel13" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel13" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
+    <div id="carousel11" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel11" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> WORSHIP MISSION WAISAI </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel13" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel13" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <div class="container mt-4" id="kunjungan akhir tahun - KAT">
-      <?php
-      include '../config/config.php';
-      // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '14'; // Ganti dengan nilai role yang sesuai
+      <div class="carousel-caption d-md-block">
+        <h3> WORSHIP MISSION MANADO </h3>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel11" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel11" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="worship mision kalteng - MIS-KALTENG">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '12'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
-      $cari->execute();
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
 
-      $jumlah = $cari->rowCount();
-      ?>
+    $jumlah = $cari->rowCount();
+    ?>
 
-      <div id="carousel14" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-        <div class="carousel-indicators">
-          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
-          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
-            <button type="button" data-bs-target="#carousel14" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
-          <?php endfor; ?>
-        </div>
-        <div class="carousel-inner">
+    <div id="carousel12" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel12" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
           <?php
-          $isActive = true; // Menandai slide pertama sebagai aktif
-          // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
           ?>
-            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-            </div>
-            <?php
-            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> KUNJUNGAN AKHIR TAHUN </h3>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel14" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel14" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+        <?php endwhile; ?>
       </div>
-    </div> <br>
-    <br>
+      <div class="carousel-caption d-md-block">
+        <h3> WORSHIP MISSION KALTENG </h3>
+        <p> Kabupaten Tamiyanglayang</p>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel12" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel12" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="worship mision waisai - MIS-WAISAI">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '13'; // Ganti dengan nilai role yang sesuai
+
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
+
+    $jumlah = $cari->rowCount();
+    ?>
+
+    <div id="carousel13" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel13" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
+          <?php
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
+          ?>
+        <?php endwhile; ?>
+      </div>
+      <div class="carousel-caption d-md-block">
+        <h3> WORSHIP MISSION WAISAI </h3>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel13" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel13" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <div class="container mt-4" id="kunjungan akhir tahun - KAT">
+    <?php
+    include '../config/config.php';
+    // Ambil role dari query parameter atau variabel lain
+    $role = isset($_GET['role']) ? $_GET['role'] : '14'; // Ganti dengan nilai role yang sesuai
+
+    // Ambil data gambar dari database berdasarkan role
+    $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+    $cari->bindParam(1, $role);
+    $cari->execute();
+
+    $jumlah = $cari->rowCount();
+    ?>
+
+    <div id="carousel14" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+        <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+          <button type="button" data-bs-target="#carousel14" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+        <?php endfor; ?>
+      </div>
+      <div class="carousel-inner">
+        <?php
+        $isActive = true; // Menandai slide pertama sebagai aktif
+        // Loop untuk menampilkan slide berdasarkan data dari database
+        while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
+          $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+        ?>
+          <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+            <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+          </div>
+          <?php
+          $isActive = false; // Menonaktifkan status aktif setelah slide pertama
+          ?>
+        <?php endwhile; ?>
+      </div>
+      <div class="carousel-caption d-md-block">
+        <h3> KUNJUNGAN AKHIR TAHUN </h3>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel14" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel14" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div> <br>
+  <br>
   </div>
   <!-- isi -->
 
