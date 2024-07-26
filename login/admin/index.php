@@ -61,7 +61,7 @@ if (empty($_SESSION['user-websitegereja'])) {
                             <div class="sb-sidenav-menu-heading"> CORE </div>
                             <a class="nav-link" href="index.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Dashboard <i class="fas fa-cross"></i>
+                                Dashboard
                             </a>
                             <div class="sb-sidenav-menu-heading"> MENU </div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
