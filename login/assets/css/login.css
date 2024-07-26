@@ -6,7 +6,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  background: url("../../img/bgadmin.jpg");
+  background: url("../../img/admnbg.jpg");
   background-repeat: repeat;
   background-size: cover;
   background-position: center;

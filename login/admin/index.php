@@ -3,7 +3,7 @@ session_start();
 require_once '../config/config.php';
 
 if (empty($_SESSION['user-websitegereja'])) {
-    header('Location: ../login/login.php');
+    header('Location: ../login/index.php');
     exit();
 } else {
     $user = $_SESSION['user-websitegereja'];
