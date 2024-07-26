@@ -68,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background-image: url('../img/bgad.jpg');
+      background-image: url('../img/bgdb.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
