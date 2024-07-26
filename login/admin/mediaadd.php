@@ -35,7 +35,7 @@
                   <div class="input-group">
                     <select class="form-select" id="inputGroupSelect04" id="Role" type="role" name="role" aria-label="Example select with button addon" required>
                       <option selected>Pilih Level...</option>
-                      <option value="00"> 0. Banner </option>
+                      <option value="01"> 0. Banner </option>
                       <option value="1"> 1. Ibadah Raya </option>
                       <option value="2"> 2. Perjamuan Kasih </option>
                       <option value="3"> 3. Persembahan Pujian </option>
