@@ -57,7 +57,7 @@
 
   <!-- isi -->
   <div id="media">
-    <div class="container mt-4" id="Banner">
+    <!-- <div class="container mt-4" id="Banner">
       <?php
       include '../config/config.php';
 
@@ -89,7 +89,7 @@
           <?php endwhile; ?>
         </div>
       </div>
-    </div> <br>
+    </div> <br> -->
     <div class="container mt-4" id="ibadah raya - IR">
       <?php
       include '../config/config.php';
