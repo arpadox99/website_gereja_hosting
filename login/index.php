@@ -17,7 +17,7 @@ require_once '../config/config.php';
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/login.css">
-  <link rel="icon" href="../img/Logo/gbi.png" />
+  <link rel="icon" href="img/Logo/gbi.png" />
 </head>
 
 <body>
@@ -26,8 +26,8 @@ require_once '../config/config.php';
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
       <div class="container-xl d-flex justify-content-center align-items-center">
         <a class="navbar-brand fw-bolder" href="#">
-          <img src="../../img/Logo/gbi.png" width="50" height="50" alt="GBI">
-          <img src="../../../img/Logo/ggm.png" width="50" height="50" alt="GGM">
+          <img src="img/Logo/gbi.png" width="50" height="50" alt="GBI">
+          <img src="img/Logo/ggm.png" width="50" height="50" alt="GGM">
         </a>
         <a class="navbar-brand fw-bolder">
           GOD'S GRACE <span class="lighttext">MINISTRY </span>
@@ -141,10 +141,10 @@ require_once '../config/config.php';
         <div class="col-auto">
           <div>
             <a target="_blank" class="socialfooter" href="https://www.facebook.com/church.grace.940" title="Facebook GBI">
-              <img draggable="false" src="../img/facebook.png" width="30" height="30" alt="FB">
+              <img draggable="false" src="img/facebook.png" width="30" height="30" alt="FB">
             </a>
             <a target="_blank" class="socialfooter" href="https://www.instagram.com/gbigodsgrace" title="Instagram GBI">
-              <img draggable="false" src="../img/instagram.png" width="30" height="30" alt="IG">
+              <img draggable="false" src="img/instagram.png" width="30" height="30" alt="IG">
             </a>
           </div>
         </div>
