@@ -59,15 +59,15 @@
   <div id="media">
     <div id="Banner">
       <style>
-        .carousel-item img {
+        #banner #carousel28 .carousel-inner .carousel-item img {
           border: none !important;
         }
 
-        .carousel-item {
+        #banner #carousel28 .carousel-inner .carousel-item {
           border: none !important;
         }
 
-        .carousel-inner {
+        #banner #carousel28 .carousel-inner {
           border: none !important;
         }
       </style>
@@ -84,7 +84,7 @@
 
       $jumlah = $cari->rowCount();
       ?>
-      <div id="carousel01" class="carousel slide" data-bs-ride="carousel">
+      <div id="carousel28" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <?php
           $isActive = true; // Menandai slide pertama sebagai aktif
