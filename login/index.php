@@ -69,61 +69,63 @@ require_once '../config/config.php';
     </div>
 
     <?php
+
     if (isset($_POST['login'])) {
       $username = htmlspecialchars($_POST['username'], ENT_QUOTES, 'UTF-8');
       $password = $_POST['password'];
 
       if (empty($username) || empty($password)) {
         echo "<script>
-                alert('Akun tidak ada!!');
-                window.history.back();
-              </script>";
+            alert('Akun tidak ada!!');
+            window.history.back();
+          </script>";
       } else {
-        //cek username
+        // Cek username
         $cek = $con->prepare("SELECT * FROM user WHERE username = :username");
-        $cek->bindParam('username', $username);
+        $cek->bindParam(':username', $username);
         $cek->execute();
         $jml = $cek->rowCount();
         $data = $cek->fetch();
 
         if ($jml > 0) {
-          // username ada, cek password
+          // Username ada, cek password
           if (password_verify($password, $data['password'])) {
-            // password benar, buat session
+            // Password benar, buat session
             $_SESSION['user-websitegereja'] = $data['username'];
             $_SESSION['role-websitegereja'] = $data['role'];
             $_SESSION['full_name-websitegereja'] = $data['full_name'];
 
-            // jika role adalah admin, tampilkan pesan selamat datang admin
+            // Jika role adalah admin, tampilkan pesan selamat datang admin
             if ($data['role'] == 'ADMIN') {
               echo "<script>
-                      alert('Halo adminku sayang!!!');
-                      window.location.href = 'admin/index.php';
-                    </script>";
+                  alert('Halo adminku sayang!!!');
+                  window.location.href = 'admin/index.php';
+                </script>";
             } else {
-              // jika role bukan admin, tampilkan pesan selamat datang pengguna biasa
+              // Jika role bukan admin, tampilkan pesan selamat datang pengguna biasa
               echo "<script>
-                      alert('maaf, anda bukan admin');
-                      window.history.back();
-                    </script>";
-            }
-          } else {
-            // password salah
-            echo "<script>
-                  alert('Password salah');
+                  alert('Maaf, anda bukan admin');
                   window.history.back();
                 </script>";
+            }
+          } else {
+            // Password salah
+            echo "<script>
+              alert('Password salah');
+              window.history.back();
+            </script>";
           }
         } else {
-          // username tidak ada
+          // Username tidak ada
           echo "<script>
-                alert('Username salah');
-                window.history.back();
-              </script>";
+            alert('Username salah');
+            window.history.back();
+          </script>";
         }
       }
     }
     ?>
+
   </div>
   <!-- isi -->
 

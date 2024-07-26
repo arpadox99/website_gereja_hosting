@@ -3,9 +3,8 @@ session_start();
 require_once '../config/config.php';
 
 if (empty($_SESSION['user-websitegereja'])) {
-    echo "<script>
-			window.location.href = '../login/login.php';
-		</script>";
+    header('Location: ../login/login.php');
+    exit();
 } else {
     $user = $_SESSION['user-websitegereja'];
     $role = $_SESSION['role-websitegereja'];
