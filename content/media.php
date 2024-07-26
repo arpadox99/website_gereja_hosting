@@ -10,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-  <!-- <link rel="stylesheet" href="../assets/css/style.css"> -->
+  <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="icon" href="../img/Logo/gbi.png" />
 </head>
 
@@ -59,15 +59,15 @@
   <div id="media">
     <div id="Banner">
       <style>
-        #banner #carousel28 .carousel-inner .carousel-item img {
+        .carousel-item img {
           border: none !important;
         }
 
-        #banner #carousel28 .carousel-inner .carousel-item {
+        .carousel-item {
           border: none !important;
         }
 
-        #banner #carousel28 .carousel-inner {
+        .carousel-inner {
           border: none !important;
         }
       </style>
