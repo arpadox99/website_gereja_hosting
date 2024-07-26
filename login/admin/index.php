@@ -131,10 +131,10 @@ if (empty($_SESSION['user-websitegereja'])) {
                             </div>
                             <div>
                                 <a target="_blank" class="socialfooter" href="https://www.facebook.com/church.grace.940" title="Facebook GBI">
-                                    <img draggable="false" src="../img/facebook.png" width="30" height="30" alt="FB">
+                                    <img draggable="false" src="../img/Logo/facebook.png" width="30" height="30" alt="FB">
                                 </a>
                                 <a target="_blank" class="socialfooter" href="https://www.instagram.com/gbigodsgrace" title="Instagram GBI">
-                                    <img draggable="false" src="../img/instagram.png" width="30" height="30" alt="IG">
+                                    <img draggable="false" src="../img/Logo/instagram.png" width="30" height="30" alt="IG">
                                 </a>
                             </div>
                         </div>
