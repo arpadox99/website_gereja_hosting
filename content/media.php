@@ -57,7 +57,7 @@
 
   <!-- isi -->
   <div id="media">
-    <div id="Banner">
+    <div id="Banner" style="border: 0;">
       <?php
       include '../config/config.php';
 
