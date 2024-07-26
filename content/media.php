@@ -57,7 +57,7 @@
 
   <!-- isi -->
   <div id="media">
-    <div class="container mt-4" id="Banner">
+    <div id="Banner">
       <?php
       include '../config/config.php';
 
