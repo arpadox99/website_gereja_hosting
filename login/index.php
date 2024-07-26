@@ -38,7 +38,7 @@ require_once '../config/config.php';
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="container">
+  <div class="container" id="formlogin">
     <div class="login-page">
       <div class="form">
         <!-- Form Registrasi -->
