@@ -66,6 +66,10 @@
         .carousel-item {
           border: none !important;
         }
+
+        .carousel-inner {
+          border: none !important;
+        }
       </style>
       <?php
       include '../config/config.php';
