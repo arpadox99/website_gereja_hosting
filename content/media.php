@@ -59,16 +59,13 @@
   <div id="media">
     <div id="Banner">
       <style>
+        #Banner,
+        #carousel01,
+        .carousel-inner,
+        .carousel-item,
         .carousel-item img {
           border: none !important;
-        }
-
-        .carousel-item {
-          border: none !important;
-        }
-
-        .carousel-inner {
-          border: none !important;
+          box-shadow: none !important;
         }
       </style>
       <?php
