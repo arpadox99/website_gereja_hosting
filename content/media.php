@@ -71,7 +71,7 @@
 
       $jumlah = $cari->rowCount();
       ?>
-      <div id="carousel09" class="carousel slide" data-bs-ride="carousel">
+      <div id="carousel01" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <?php
           $isActive = true; // Menandai slide pertama sebagai aktif
