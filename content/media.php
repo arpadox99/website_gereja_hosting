@@ -60,11 +60,11 @@
     <div id="Banner">
       <style>
         .carousel-item img {
-          border: none;
+          border: none !important;
         }
 
         .carousel-item {
-          border: none;
+          border: none !important;
         }
       </style>
       <?php
