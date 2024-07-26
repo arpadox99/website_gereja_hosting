@@ -28,7 +28,7 @@
                         <div class="small mb-3 text-muted"> Enter username. </div>
                         <form action="index.php?page=passwordcheck" method="POST">
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="username" name="username" type="text" placeholder="name@example.com" />
+                                <input class="form-control" id="username" name="username" type="text" />
                                 <label for="username"> Username </label>
                             </div>
                             <div class="text-center mt-4 mb-0">
