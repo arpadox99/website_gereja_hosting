@@ -22,7 +22,7 @@ if (empty($nama_files) || empty($role)) {
 }
 
 // Membuat direktori berdasarkan role jika belum ada
-$role_dir = "../../login/img/img_upload/$role";
+$role_dir = "../img/img_upload/$role";
 if (!file_exists($role_dir)) {
     mkdir($role_dir, 0777, true);
 }

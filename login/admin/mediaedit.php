@@ -95,7 +95,7 @@ if (!$data) {
                     <div class="col-md-12">
                       <div class="input-group">
                         <select class="form-select" id="Role" name="role" aria-label="Example select with button addon" required>
-                          <option value="01" <?= ($role == 01) ? 'selected' : '' ?>> 0. Banner </option>
+                          <option value="99" <?= ($role == 99) ? 'selected' : '' ?>> 0. Banner </option>
                           <option value="1" <?= ($role == 1) ? 'selected' : '' ?>> 1. Ibadah Raya </option>
                           <option value="2" <?= ($role == 2) ? 'selected' : '' ?>> 2. Perjamuan Kasih </option>
                           <option value="3" <?= ($role == 3) ? 'selected' : '' ?>> 3. Persembahan Pujian </option>
