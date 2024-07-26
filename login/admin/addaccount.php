@@ -1,6 +1,5 @@
 <?php
 
-
 //filter
 // Menyaring dan menyanitasi input
 $username = htmlspecialchars($_POST['username'], ENT_QUOTES, 'UTF-8');
