@@ -37,7 +37,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       // header('Location: index.php?page=passwordnew');
       exit(); // Make sure to exit after a header redirect
     } else {
-      echo "Data tidak valid. Silakan coba lagi.";
+      echo "<script>
+              alert('Username tidak ada. Silakan coba lagi.')
+              window.history.back();
+            </script>";
     }
 
     // Close the statement
