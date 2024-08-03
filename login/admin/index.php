@@ -25,37 +25,6 @@ if (empty($_SESSION['user-websitegereja'])) {
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <link rel="icon" href="../img/Logo/gbi.png" />
-        <style>
-            html,
-            body {
-                height: 100%;
-                margin: 0;
-            }
-
-            #layoutSidenav {
-                display: flex;
-                height: 100%;
-            }
-
-            #layoutSidenav_content {
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-            }
-
-            main {
-                flex: 1;
-            }
-
-            footer {
-                position: fixed;
-                bottom: 0;
-                width: calc(100% - 225px);
-                /* Adjust width based on sidenav width */
-                left: 225px;
-                /* Match the sidenav width */
-            }
-        </style>
     </head>
 
     <body class="sb-nav-fixed">
