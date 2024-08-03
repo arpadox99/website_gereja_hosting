@@ -66,7 +66,7 @@
 
       // Ambil data gambar dari database berdasarkan role
       $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
-      $cari->bindParam(1, $role);
+      $cari->bindParam(1, $role, PDO::PARAM_INT);
       $cari->execute();
 
       $jumlah = $cari->rowCount();
@@ -81,7 +81,7 @@
             $path_to_image = "../login/img/img_upload/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
           ?>
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
-              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide" loading="lazy">
             </div>
             <?php
             $isActive = false; // Menonaktifkan status aktif setelah slide pertama
