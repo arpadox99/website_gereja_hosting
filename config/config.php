@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 
 try {
     //koneksi..
-    $con = new PDO('mysql:host=localhost;dbname=u152600978_websitegereja', "u152600978_website_gereja", "G0dsGrace33");
+    $con = new PDO('mysql:host=localhost;dbname=u152600978_websitegereja', 'u152600978_website_gereja', 'G0dsGrace33');
     //set.eror
     $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (Exception $e) {
