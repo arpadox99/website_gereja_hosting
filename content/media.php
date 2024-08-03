@@ -436,7 +436,7 @@
         </button>
       </div>
     </div> <br>
-    <div class="container mt-4" id="grace worshipers training - GWT">
+    <div class="container mt-4" id="grace worshippers training - GWT">
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
