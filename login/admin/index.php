@@ -2,13 +2,13 @@
 session_start();
 require_once '../config/config.php';
 
-if (empty($_SESSION['user-u152600978_websitegereja'])) {
+if (empty($_SESSION['user-websitegereja'])) {
     header('Location: ../ ');
     exit();
 } else {
-    $user = $_SESSION['user-u152600978_websitegereja'];
-    $role = $_SESSION['role-u152600978_websitegereja'];
-    $full_name = $_SESSION['full_name-u152600978_websitegereja'];
+    $user = $_SESSION['user-websitegereja'];
+    $role = $_SESSION['role-websitegereja'];
+    $full_name = $_SESSION['full_name-websitegereja'];
 
 ?>
     <!DOCTYPE html>

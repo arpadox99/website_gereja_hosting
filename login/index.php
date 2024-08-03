@@ -91,9 +91,9 @@ require_once '../config/config.php';
           // Username ada, cek password
           if (password_verify($password, $data['password'])) {
             // Password benar, buat session
-            $_SESSION['user-u152600978_websitegereja'] = $data['username'];
-            $_SESSION['role-u152600978_websitegereja'] = $data['role'];
-            $_SESSION['full_name-u152600978_websitegereja'] = $data['full_name'];
+            $_SESSION['user-websitegereja'] = $data['username'];
+            $_SESSION['role-websitegereja'] = $data['role'];
+            $_SESSION['full_name-websitegereja'] = $data['full_name'];
 
             // Jika role adalah admin, tampilkan pesan selamat datang admin
             if ($data['role'] == 'ADMIN') {
