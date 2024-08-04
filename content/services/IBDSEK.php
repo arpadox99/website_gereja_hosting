@@ -75,7 +75,7 @@
           <li> <a href="../services/Sektor/deborasion.php"> Sektor Debora Sion </a> </li>
           <li> <a href="../services/Sektor/imanuel.php"> Sektor Imanuel </a> </li>
           <li> <a href="../services/Sektor/joyfull.php"> Sektor Joyfull </a> </li>
-          <li> <a href="../services/Sektor/kalvary.php"> Sektor Kalvary </a> </li>
+          <li> <a href="../services/Sektor/kalvary.php"> Sektor Kalvari </a> </li>
           <li> <a href="../services/Sektor/nusaniwe.php"> Sektor Nusaniwe </a> </li>
           <li> <a href="../services/Sektor/rajawali.php"> Sektor Rajawali </a> </li>
           <li> <a href="../services/Sektor/victory.php"> Sektor Victory </a> </li>
