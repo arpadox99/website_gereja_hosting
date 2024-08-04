@@ -49,7 +49,7 @@
             $gambar_slider = htmlspecialchars($r['gambar_slider']);
 
             // Menentukan path gambar berdasarkan role
-            $gambar_path = "../img/img_upload/$role/$gambar_slider";
+            $gambar_path = "../../img/Media/$role/$gambar_slider";
 
             echo "
                   <tr>
