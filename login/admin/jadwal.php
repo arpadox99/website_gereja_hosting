@@ -21,12 +21,12 @@
                 </div>
                 <thead>
                     <tr>
-                        <th style="text-align: center;"> HARI </th>
-                        <th style="text-align: center;"> WAKTU IBADAH</th>
-                        <th style="text-align: center;"> JENIS IBADAH </th>
-                        <th style="text-align: center;"> LOKASI IBADAH </th>
-                        <th style="text-align: center;"> EDIT </th>
-                        <th style="text-align: center;"> DELETE </th>
+                        <th> HARI </th>
+                        <th> WAKTU IBADAH</th>
+                        <th> JENIS IBADAH </th>
+                        <th> LOKASI IBADAH </th>
+                        <th> EDIT </th>
+                        <th> DELETE </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -35,15 +35,15 @@
                     $sql = $con->query("SELECT * FROM jadwal_ibadah");
                     while ($r = $sql->fetch()) {
                         echo "
-                                                <tr align='center'>
+                                                <tr>
                                                     <td>$r[hari_tgl]</td>
                                                     <td>$r[waktu_ibadah]</td>
                                                     <td>$r[jenis_keg]</td>
                                                     <td>$r[lokasi_ibadah]</td>
-                                                    <td style='text-align: center;'>
+                                                    <td>
                                                         <a class='btn btn-warning btn-sm text-white' href='index.php?page=jadwaledit&id_jadwal=$r[id_jadwal]'><i class='fas fa-pencil '></i></a>
                                                     </td>
-                                                    <td style='text-align: center;'>
+                                                    <td>
                                                         <a class='btn btn-danger btn-sm' href='index.php?page=jadwaldelete&id_jadwal=$r[id_jadwal]' onclick=\"return confirm('Hapus Data?')\"><i class='fas fa-trash'></i></a>
                                                     </td>                                        
                                                 </tr>
