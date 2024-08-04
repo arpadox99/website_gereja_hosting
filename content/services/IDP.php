@@ -62,7 +62,7 @@
     <h2 id="textserv"> Ibadah Doa Pelayan </h2>
     <img draggable="false" src="../../img/Service/doapelayan2.jpg" class="mx-auto d-block img-fluid" alt="SM" id="IDPpage">
   </div>
-  <div class="container">
+  <div>
     <article>
       <p class="serv">
         Ibadah Doa pelayan dilaksanakan setiap hari Sabtu untuk mempersiapkan para pelayan dalam melayani Tuhan di berbagai kegiatan ibadah selama sepekan.

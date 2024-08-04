@@ -62,7 +62,7 @@
       <h2 id="textserv"> Ibadah Sektor </h2>
       <img draggable="false" src="../../img/Service/IS1.jpg" class="mx-auto d-block img-fluid" alt="IS" id="ISpage">
     </div>
-    <div class="container">
+    <div>
       <article>
         <p class="serv">
           Ibadah yang dilakukan oleh setiap orang percaya tidak hanya ibadah pribadi, tetapi juga ibadah bersama.

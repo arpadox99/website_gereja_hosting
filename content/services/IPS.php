@@ -57,7 +57,7 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="container" id="classIPS">
+  <div id="classIPS">
     <div class="row text-church" id="bannerserv">
       <h2 id="textserv"> Ibadah Pria Sejati </h2>
       <img draggable="false" src="../../img/Service/IPS.jpg" class="mx-auto d-block img-fluid" alt="IPS" id="IPSpage">

@@ -62,7 +62,7 @@
       <h2 id="textserv"> Doa Puasa </h2>
       <img draggable="false" src="../../img/Service/doapuasa2.jpg" class="mx-auto d-block img-fluid" alt="DP" id="DPpage">
     </div>
-    <div class="container">
+    <div>
       <article>
         <p class="serv" id="doapuasa">
           Doa Puasa dilaksanakan setiap hari Selasa oleh para pendoa syafaat yang mendoakan dunia,
