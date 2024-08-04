@@ -20,13 +20,13 @@
                     </div>
                 </div>
                 <thead>
-                    <tr class="text-center">
-                        <th> HARI </th>
-                        <th> WAKTU IBADAH</th>
-                        <th> JENIS IBADAH </th>
-                        <th> LOKASI IBADAH </th>
-                        <th> EDIT </th>
-                        <th> DELETE </th>
+                    <tr>
+                        <th style="text-align: center;"> HARI </th>
+                        <th style="text-align: center;"> WAKTU IBADAH</th>
+                        <th style="text-align: center;"> JENIS IBADAH </th>
+                        <th style="text-align: center;"> LOKASI IBADAH </th>
+                        <th style="text-align: center;"> EDIT </th>
+                        <th style="text-align: center;"> DELETE </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -40,10 +40,10 @@
                                                     <td>$r[waktu_ibadah]</td>
                                                     <td>$r[jenis_keg]</td>
                                                     <td>$r[lokasi_ibadah]</td>
-                                                    <td>
+                                                    <td style='text-align: center;'>
                                                         <a class='btn btn-warning btn-sm text-white' href='index.php?page=jadwaledit&id_jadwal=$r[id_jadwal]'><i class='fas fa-pencil '></i></a>
                                                     </td>
-                                                    <td>
+                                                    <td style='text-align: center;'>
                                                         <a class='btn btn-danger btn-sm' href='index.php?page=jadwaldelete&id_jadwal=$r[id_jadwal]' onclick=\"return confirm('Hapus Data?')\"><i class='fas fa-trash'></i></a>
                                                     </td>                                        
                                                 </tr>
