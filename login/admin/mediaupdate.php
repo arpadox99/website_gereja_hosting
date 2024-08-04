@@ -62,7 +62,7 @@ if (empty($role)) {
     // Proses upload dan penghapusan file lama
     if (!empty($nama_file)) {
       // Create role directory if it doesn't exist
-      $role_dir = "../../img/Media/$role";
+      $role_dir = "../img/Media/$role";
       if (!file_exists($role_dir)) {
         mkdir($role_dir, 0777, true);
       }
@@ -72,7 +72,7 @@ if (empty($role)) {
       if (move_uploaded_file($tmp_file, $target_file)) {
         // Jika file berhasil diupload, hapus file lama jika ada
         if (!empty($gambar_lama)) {
-          $old_file_path = "../../img/Media/$role_lama/$gambar_lama";
+          $old_file_path = "../img/Media/$role_lama/$gambar_lama";
           if (file_exists($old_file_path)) {
             unlink($old_file_path);
           }
@@ -80,9 +80,9 @@ if (empty($role)) {
       } else {
         // Jika file gagal diupload, tampilkan pesan error
         echo "<script>
-                        alert('Gagal mengupload file');
-                        window.history.back();
-                      </script>";
+                alert('Gagal mengupload file');
+                window.history.back();
+              </script>";
         exit;
       }
     }
