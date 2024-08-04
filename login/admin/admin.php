@@ -23,6 +23,7 @@
     .content {
       flex: 1;
       overflow: auto;
+      padding-bottom: 60px; /* Height of the footer */
     }
 
     .iframe-container {
@@ -42,9 +43,10 @@
     }
 
     footer {
+      position: fixed;
+      bottom: 0;
       width: 100%;
       padding: 10px;
-      position: relative;
     }
   </style>
 </head>
