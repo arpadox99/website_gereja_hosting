@@ -45,38 +45,33 @@
           $no = 1;
           $sql = $con->query("SELECT * FROM slider");
           while ($r = $sql->fetch()) {
-            $role = htmlspecialchars($r['role'], ENT_QUOTES, 'UTF-8');
-            $gambar_slider = htmlspecialchars($r['gambar_slider'], ENT_QUOTES, 'UTF-8');
-            $judul_slider = htmlspecialchars($r['judul_slider'], ENT_QUOTES, 'UTF-8');
-            $deskripsi_slider = htmlspecialchars($r['deskripsi_slider'], ENT_QUOTES, 'UTF-8');
-            $id_gambar = htmlspecialchars($r['id_gambar'], ENT_QUOTES, 'UTF-8');
+            $role = htmlspecialchars($r['role']);
+            $gambar_slider = htmlspecialchars($r['gambar_slider']);
 
             // Menentukan path gambar berdasarkan role
-            $gambar_path = "../../img/Media/{$role}/{$gambar_slider}";
+            $gambar_path = "../../img/Media/$role/$gambar_slider";
 
-            echo <<<HTML
-              <tr>
-                <td>{$no}</td>
-                <td style='width: 100px;'>
-                  <img src="{$gambar_path}" class="img-fluid" style="max-width: 250px;">
-                </td>
-                <td>{$gambar_slider}</td>
-                <td>{$judul_slider}</td>
-                <td>{$deskripsi_slider}</td>
-                <td>{$role}</td>
-                <td>
-                  <a class="btn btn-warning btn-sm text-white" href="index.php?page=mediaedit&id_gambar={$id_gambar}"><i class="fas fa-pencil"></i></a>
-                </td>
-                <td>
-                  <a class="btn btn-danger btn-sm" href="index.php?page=mediadelete&id_gambar={$id_gambar}" onclick="return confirm('Hapus Data?')"><i class="fas fa-trash"></i></a>
-                </td>
-              </tr>
-            HTML;
-            $no++;
+            echo "
+                  <tr>
+                    <td>" . htmlspecialchars($no++) . "</td>
+                    <td style='width: 100px;'> <!-- Ensure the image column has a fixed width -->
+                      <img src='$gambar_path' class='img-fluid' style='max-width: 250px;'> <!-- Responsive image -->
+                    </td>
+                    <td>" . $gambar_slider . "</td>
+                    <td>" . htmlspecialchars($r['judul_slider']) . "</td>
+                    <td>" . htmlspecialchars($r['deskripsi_slider']) . "</td>
+                    <td>" . $role . "</td>
+                    <td>
+                      <a class='btn btn-warning btn-sm text-white' href='index.php?page=mediaedit&id_gambar=" . htmlspecialchars($r['id_gambar']) . "'><i class='fas fa-pencil'></i></a>
+                    </td>
+                    <td>
+                      <a class='btn btn-danger btn-sm' href='index.php?page=mediadelete&id_gambar=" . htmlspecialchars($r['id_gambar']) . "' onclick=\"return confirm('Hapus Data?')\"><i class='fas fa-trash'></i></a>
+                    </td>
+                  </tr>
+                ";
           }
           ?>
         </tbody>
-
       </table>
     </div>
   </div>
