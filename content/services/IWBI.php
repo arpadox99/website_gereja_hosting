@@ -57,12 +57,12 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div id="classIWBI">
+  <div class="container" id="classIWBI">
     <div class="row text-church" id="bannerserv">
       <h2 id="textserv"> Ibadah Wanita Bethel Indonesia (WBI) </h2>
       <img draggable="false" src="../../img/Service/wbi2.jpg" class="mx-auto d-block img-fluid" alt="IWBI" id="IWBIpage">
     </div>
-    <div class="container">
+    <div>
       <article>
         <p class="serv">
           Menjadi wanita cakap berdampak adalah Tujuan dari Wanita Bethel Indonesia jemaat GBI God’s Grace Ambon.

@@ -57,12 +57,12 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div id="classIPS">
+  <div class="container" id="classIPS">
     <div class="row text-church" id="bannerserv">
       <h2 id="textserv"> Ibadah Pria Sejati </h2>
       <img draggable="false" src="../../img/Service/IPS.jpg" class="mx-auto d-block img-fluid" alt="IPS" id="IPSpage">
     </div>
-    <div class="container">
+    <div>
       <article>
         <p class="serv">
           Pria Sejati adalah Imam bagi keluarga dan rumah tangganya. Oleh karena itu, seorang pria sejati harus memberikan finansial yang cukup bagi keluarganya dan terlebih lagi sebagai seorang pria sejati, ia harus menjadi teladan dalam hal kerohanian bagi keluarga, bagi istri dan bagi anak-anaknya.
