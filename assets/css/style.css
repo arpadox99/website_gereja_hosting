@@ -991,7 +991,7 @@ hr.thick-hr {
   .contactwa .IconWhatsapp img {
     height: 15px;
   }
-} 
+}
 /* ukuran info saat layar hp kecil*/
 @media (max-width: 392px) {
   .contactwa {
@@ -1032,6 +1032,19 @@ hr.thick-hr {
     width: 50px;
     margin-top: -190px;
     margin-right: 10px;
+    margin-bottom: 0px;
+  }
+} 
+/* ukuran info saat layar hp super kecil*/
+@media (min-width: 360px) {
+  .contactwa {
+    margin-top: -100px;
+    margin-bottom: 5px;
+  }
+  .card.QR {
+    width: 50px;
+    margin-top: -190px;
+    margin-right: 0px;
     margin-bottom: 0px;
   }
 }
