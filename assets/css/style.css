@@ -991,6 +991,36 @@ hr.thick-hr {
   .contactwa .IconWhatsapp img {
     height: 15px;
   }
+} 
+/* ukuran info saat layar hp kecil*/
+@media (max-width: 392px) {
+  .contactwa {
+    margin-top: -100px;
+    margin-bottom: 5px;
+  }
+  .card.QR {
+    width: 50px;
+    margin-top: -190px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+  .card.QR .card-body {
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 0 0;
+  }
+  .contactwa .wa-button {
+    border-radius: 5px;
+    font-size: 0.55rem;
+    margin-left: 10px;
+    padding: 2px 5px;
+  }
+  .contactwa .IconWhatsapp {
+    margin-right: 5px;
+  }
+  .contactwa .IconWhatsapp img {
+    height: 15px;
+  }
 }
 /* ukuran info saat layar hp super kecil*/
 @media (max-width: 376px) {
