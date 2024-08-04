@@ -18,10 +18,6 @@
       flex: 1;
     }
 
-    .content {
-      padding-bottom: 60px; /* Height of the footer */
-    }
-
     .iframe-container {
       position: relative;
       width: 100%;
