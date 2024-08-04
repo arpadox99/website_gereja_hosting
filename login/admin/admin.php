@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="../admin/css/admin.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
-    body,
-    html {
+    body, html {
       height: 100%;
       margin: 0;
       display: flex;
@@ -17,19 +16,20 @@
 
     .container-fluid {
       flex: 1;
+      display: flex;
+      flex-direction: column;
     }
 
     .content {
-      padding-bottom: 60px;
-      /* Height of the footer */
+      flex: 1;
+      overflow: auto;
     }
 
     .iframe-container {
       position: relative;
       width: 100%;
-      overflow: hidden;
-      padding-top: 56.25%;
-      /* 16:9 Aspect Ratio */
+      height: 0;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
     }
 
     .iframe-container iframe {
@@ -45,7 +45,6 @@
       width: 100%;
       padding: 10px;
       position: relative;
-      bottom: 0;
     }
   </style>
 </head>
@@ -58,10 +57,20 @@
         <li class="breadcrumb-item active"> Tampilan Website Gereja GBI GOD'S GRACE </li>
       </ol>
       <div class="iframe-container">
-        <iframe src="https://projectwebsitegereja.my.id/"></iframe>
+        <iframe id="iframe" src="https://projectwebsitegereja.my.id/"></iframe>
       </div>
     </div>
   </div>
+  <script>
+    function adjustIframeHeight() {
+      const iframe = document.getElementById('iframe');
+      const containerHeight = window.innerHeight - document.querySelector('footer').offsetHeight - document.querySelector('.content').offsetTop;
+      iframe.style.height = containerHeight + 'px';
+    }
+
+    window.addEventListener('resize', adjustIframeHeight);
+    window.addEventListener('load', adjustIframeHeight);
+  </script>
 </body>
 
 </html>
