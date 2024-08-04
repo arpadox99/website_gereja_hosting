@@ -52,7 +52,7 @@
             $id_gambar = htmlspecialchars($r['id_gambar'], ENT_QUOTES, 'UTF-8');
 
             // Menentukan path gambar berdasarkan role
-            $gambar_path = "../../img/Media/$role/$gambar_slider";
+            $gambar_path = "../../img/Media/{$role}/{$gambar_slider}";
 
             echo <<<HTML
               <tr>
