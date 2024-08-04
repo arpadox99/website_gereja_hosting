@@ -104,12 +104,12 @@ if (!$data) {
                           <option value="6" <?= ($role == 6) ? 'selected' : '' ?>> 6. YGSM </option>
                           <option value="7" <?= ($role == 7) ? 'selected' : '' ?>> 7. Ministries </option>
                           <option value="8" <?= ($role == 8) ? 'selected' : '' ?>> 8. Grace Worshipers Training </option>
-                          <option value="9" <?= ($role == 9) ? 'selected' : '' ?>> 9. Penyerahan Anak </option>
-                          <option value="10" <?= ($role == 10) ? 'selected' : '' ?>> 10. Baptisan Air </option>
-                          <option value="11" <?= ($role == 11) ? 'selected' : '' ?>> 11. Worship Mission Manado </option>
-                          <option value="12" <?= ($role == 12) ? 'selected' : '' ?>> 12. Worship Mission Kalteng </option>
-                          <option value="13" <?= ($role == 13) ? 'selected' : '' ?>> 13. Worship Mission Waisai </option>
-                          <option value="14" <?= ($role == 14) ? 'selected' : '' ?>> 14. Kunjungan Akhir Tahun </option>
+                          <option value="9" <?= ($role == 9) ? 'selected' : '' ?>>> 9. Penyerahan Anak </option>
+                          <option value="10" <?= ($role == 10) ? 'selected' : '' ?>>> 10. Baptisan Air </option>
+                          <option value="11" <?= ($role == 11) ? 'selected' : '' ?>>> 11. Worship Mission Waisai </option>
+                          <option value="12" <?= ($role == 12) ? 'selected' : '' ?>>> 12. God's Grace Music Mission </option>
+                          <option value="13" <?= ($role == 13) ? 'selected' : '' ?>>> 13. Berbagi Kasih </option>
+                          <option value="14" <?= ($role == 14) ? 'selected' : '' ?>>> 14. Kunjungan Akhir Tahun </option>
                         </select>
                       </div>
                     </div>

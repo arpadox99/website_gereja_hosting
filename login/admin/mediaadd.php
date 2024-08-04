@@ -46,9 +46,9 @@
                       <option value="8"> 8. Grace Worshipers Training </option>
                       <option value="9"> 9. Penyerahan Anak </option>
                       <option value="10"> 10. Baptisan Air </option>
-                      <option value="11"> 11. Worship Mission Manado </option>
-                      <option value="12"> 12. Worship Mission Kalteng </option>
-                      <option value="13"> 13. Worship Mission Waisai </option>
+                      <option value="11"> 11. Worship Mission Waisai </option>
+                      <option value="12"> 12. God's Grace Music Mission </option>
+                      <option value="13"> 13. Berbagi Kasih </option>
                       <option value="14"> 14. Kunjungan Akhir Tahun </option>
                     </select>
                   </div>

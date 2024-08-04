@@ -133,9 +133,9 @@
           <li> 8. Grace Worshipers Training </li>
           <li> 9. Penyerahan Anak </li>
           <li> 10. Baptisan Air </li>
-          <li> 11. Worship Mission Manado </li>
-          <li> 12. Worship Mission Kalteng </li>
-          <li> 13. Worship Mission Waisai </li>
+          <li> 11. Worship Mission Waisai </li>
+          <li> 12. God's Grace Music Mission </li>
+          <li> 13. Berbagi Kasih </li>
           <li> 14. Kunjungan Akhir Tahun </li>
         </ul>
       </div>
