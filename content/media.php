@@ -62,7 +62,7 @@
       include '../config/config.php';
 
       // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '28.B'; // Ganti dengan nilai role yang sesuai
+      $role = isset($_GET['role']) ? $_GET['role'] : '28'; // Ganti dengan nilai role yang sesuai
 
       // Ambil data gambar dari database berdasarkan role
       $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
