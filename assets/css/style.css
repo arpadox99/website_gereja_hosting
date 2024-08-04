@@ -329,7 +329,7 @@ img#ISpage,
 img#IPSpage,
 img#IWBIpage {
   border-radius: 3%; /* rounded menu services*/
-  width: 1200px; /* lebar */
+  width: auto; /* lebar */
   height: 600px; /* tinggi */
 }
 img#IPSpage {
