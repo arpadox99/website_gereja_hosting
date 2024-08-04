@@ -5,3 +5,11 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^(www\.)?projectwebsitegereja\.my\.id$ [NC]
 RewriteCond %{REQUEST_URI} ^/admin/ [NC]
 RewriteRule ^(.*)$ - [F,L]
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access 1 year"
+  ExpiresByType image/png "access 1 year"
+  ExpiresByType image/gif "access 1 year"
+  ExpiresByType image/webp "access 1 year"
+</IfModule>
