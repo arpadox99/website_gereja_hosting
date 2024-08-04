@@ -129,6 +129,12 @@
           </div>
           @Y_GSM15
         </a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100069572340087" class="social-button" id="hurufYGSM">
+          <div class="social-icon" id="iconYGSM">
+            <img src="../../img/facebook.png" alt="Facebook">
+          </div>
+          @Y_GSM15
+        </a>
       </div>
     </div>
   </div>

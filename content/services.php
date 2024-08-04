@@ -65,7 +65,7 @@
         <h2 class="kop"> IBADAH RAYA</h2>
       </div>
       <div class="color-overlay d-flex justify-content-center align-items-center">
-        <p id="IR"> Kami mengundang Bapak/Ibu untuk hadir dan merayakan kemenangan dalam ibadah raya setiap hari minggu jam 09.00 WIT.
+        <p id="IR"> Kami mengundang Bapak/Ibu untuk hadir dan merayakan kemenangan dalam Ibadah Raya setiap hari Minggu jam 09.00 WIT.
           Bapak/Ibu akan menikmati lawatan Tuhan dalam pujian, penyembahan, dan Firman Tuhan yang akan memberkati,
           memulihkan dan membawa kemenangan. </p>
       </div>
