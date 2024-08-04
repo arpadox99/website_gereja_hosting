@@ -66,27 +66,6 @@
       </div>
     </div>
   </div>
-  <footer class="py-4 bg-dark mt-auto">
-    <div class="container-fluid px-1">
-      <div class="d-flex align-items-center justify-content-between small">
-        <div class="text-muted">
-          <small>
-            &copy; <script>
-              document.write(new Date().getFullYear());
-            </script> GOD'S GRACE
-          </small>
-        </div>
-        <div>
-          <a target="_blank" class="socialfooter" href="https://www.facebook.com/church.grace.940" title="Facebook GBI">
-            <img draggable="false" src="../img/Logo/facebook.png" width="30" height="30" alt="FB">
-          </a>
-          <a target="_blank" class="socialfooter" href="https://www.instagram.com/gbigodsgrace" title="Instagram GBI">
-            <img draggable="false" src="../img/Logo/instagram.png" width="30" height="30" alt="IG">
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
   <script>
     function adjustIframeHeight() {
       const iframe = document.getElementById('iframe');
