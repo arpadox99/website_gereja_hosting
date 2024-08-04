@@ -1036,7 +1036,7 @@ hr.thick-hr {
   }
 } 
 /* ukuran info saat layar hp super kecil*/
-@media (min-width: 360px) {
+@media (max-width: 360px) {
   .contactwa {
     margin-top: -100px;
     margin-bottom: 5px;
