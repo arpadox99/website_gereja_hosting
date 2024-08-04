@@ -580,7 +580,7 @@
         </button>
       </div>
     </div> <br>
-    <div class="container mt-4" id="worship mision manado - MIS-MANADO">
+    <div class="container mt-4" id="worship mision waisai - MIS-WAISAI">
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
@@ -618,7 +618,7 @@
           <?php endwhile; ?>
         </div>
         <div class="carousel-caption d-md-block">
-          <h3> WORSHIP MISSION MANADO </h3>
+          <h3> WORSHIP MISSION WAISAI </h3>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel11" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -628,7 +628,7 @@
         </button>
       </div>
     </div> <br>
-    <div class="container mt-4" id="worship mision kalteng - MIS-KALTENG">
+    <div class="container mt-4" id="god's grace music mission - GGMM">
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
@@ -666,8 +666,7 @@
           <?php endwhile; ?>
         </div>
         <div class="carousel-caption d-md-block">
-          <h3> WORSHIP MISSION KALTENG </h3>
-          <p> Kabupaten Tamiyanglayang</p>
+          <h3> GOD'S GRACE MUSIC MISSION </h3>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel12" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -677,7 +676,7 @@
         </button>
       </div>
     </div> <br>
-    <div class="container mt-4" id="worship mision waisai - MIS-WAISAI">
+    <div class="container mt-4" id="berbagi kasih - BK">
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
@@ -715,7 +714,7 @@
           <?php endwhile; ?>
         </div>
         <div class="carousel-caption d-md-block">
-          <h3> WORSHIP MISSION WAISAI </h3>
+          <h3> BERBAGI KASIH </h3>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel13" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
