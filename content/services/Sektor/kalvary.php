@@ -60,7 +60,7 @@
   <!-- isi -->
   <div>
     <div class="sektor">
-      <h2 id="umum"> SEKTOR KALVARY </h2>
+      <h2 id="umum"> SEKTOR KALVARI </h2>
     </div>
     <div class="container pembinasektor">
       <div class="row">
