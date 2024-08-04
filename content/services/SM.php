@@ -60,7 +60,7 @@
   <div class="container" id="classSM">
     <div class="row text-church" id="bannerserv">
       <h2 id="textserv"> God’s Grace Kids </h2>
-      <img draggable="false" src="../../img/Service/ggkids.jpg" class="mx-auto d-block img-fluid" alt="SM" id="SMpage">
+      <img draggable="false" src="../../img/Service/ggkids2.jpg" class="mx-auto d-block img-fluid" alt="SM" id="SMpage">
     </div>
     <div>
       <article>
