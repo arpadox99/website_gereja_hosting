@@ -32,7 +32,7 @@
       <li class="breadcrumb-item active"> Tampilan Website Gereja GBI GOD'S GRACE </li>
     </ol>
     <div class="iframe-container">
-      <iframe src="https://projectwebsitegereja.my.id/" width="1285px" height="500"></iframe>
+      <iframe src="https://projectwebsitegereja.my.id/"></iframe>
     </div>
   </div>
 </body>
