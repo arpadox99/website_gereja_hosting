@@ -57,7 +57,7 @@
                     <td style='width: 100px;'> <!-- Ensure the image column has a fixed width -->
                       <img src='$gambar_path' class='img-fluid' style='max-width: 250px;'> <!-- Responsive image -->
                     </td>
-                    <td>" . $gambar_slider . "</td>
+                    <td>" . $gambar_path . "</td>
                     <td>" . htmlspecialchars($r['judul_slider']) . "</td>
                     <td>" . htmlspecialchars($r['deskripsi_slider']) . "</td>
                     <td>" . $role . "</td>
