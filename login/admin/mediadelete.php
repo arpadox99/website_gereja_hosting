@@ -28,7 +28,7 @@ if (!isset($_GET['id_gambar'])) {
     $delete->execute();
 
     // Hapus file gambar dari folder sesuai role
-    $path_to_image = '../img/img_upload/' . htmlspecialchars($role) . '/' . htmlspecialchars($nama_gambar);
+    $path_to_image = '../../img/Media/' . htmlspecialchars($role) . '/' . htmlspecialchars($nama_gambar);
     if (file_exists($path_to_image)) {
       if (unlink($path_to_image)) {
         echo "<script>
