@@ -98,7 +98,7 @@ require_once '../config/config.php';
             // Jika role adalah admin, tampilkan pesan selamat datang admin
             if ($data['role'] == 'ADMIN') {
               echo "<script>
-                  alert('Halo adminku sayang!!!');
+                  alert('Selamat Datang, Admin!!!');
                   window.location.href = 'admin/index.php';
                 </script>";
             } else {
