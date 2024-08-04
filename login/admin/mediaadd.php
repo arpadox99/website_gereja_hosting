@@ -35,21 +35,21 @@
                   <div class="input-group">
                     <select class="form-select" id="inputGroupSelect04" id="Role" type="role" name="role" aria-label="Example select with button addon" required>
                       <option selected>Pilih Level...</option>
-                      <option value="28"> 0. Banner </option>
-                      <option value="1"> 1. Ibadah Raya </option>
-                      <option value="2"> 2. Perjamuan Kasih </option>
-                      <option value="3"> 3. Persembahan Pujian </option>
-                      <option value="4"> 4. Ibadah Sektor </option>
-                      <option value="5"> 5. God's Grace Kids </option>
-                      <option value="6"> 6. YGSM </option>
-                      <option value="7"> 7. Ministries </option>
-                      <option value="8"> 8. Grace Worshipers Training </option>
-                      <option value="9"> 9. Penyerahan Anak </option>
-                      <option value="10"> 10. Baptisan Air </option>
-                      <option value="11"> 11. Worship Mission Waisai </option>
-                      <option value="12"> 12. God's Grace Music Mission </option>
-                      <option value="13"> 13. Berbagi Kasih </option>
-                      <option value="14"> 14. Kunjungan Akhir Tahun </option>
+                      <option value="28.B"> 0. Banner </option>
+                      <option value="1.IR"> 1. Ibadah Raya </option>
+                      <option value="2.PK"> 2. Perjamuan Kasih </option>
+                      <option value="3.PP"> 3. Persembahan Pujian </option>
+                      <option value="4.IS"> 4. Ibadah Sektor </option>
+                      <option value="5.GGK"> 5. God's Grace Kids </option>
+                      <option value="6.YGSM"> 6. YGSM </option>
+                      <option value="7.MNSTR"> 7. Ministries </option>
+                      <option value="8.GWT"> 8. Grace Worshipers Training </option>
+                      <option value="9.PA"> 9. Penyerahan Anak </option>
+                      <option value="10.BA"> 10. Baptisan Air </option>
+                      <option value="11.WMW"> 11. Worship Mission Waisai </option>
+                      <option value="12.GGMM"> 12. God's Grace Music Mission </option>
+                      <option value="13.BK"> 13. Berbagi Kasih </option>
+                      <option value="14.KAT"> 14. Kunjungan Akhir Tahun </option>
                     </select>
                   </div>
                 </div>
