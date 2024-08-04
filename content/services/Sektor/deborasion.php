@@ -83,7 +83,8 @@
               </p>
               <p>
                 Menyelesaikan D3 pada tahun 1993 di STT Berea Salatiga, S1 di STAKPN Ambon pada tahun 1997,
-                S2 di STT Nazarene Yogyakarta pada tahun 2010, dan S3 di STT Teruna Bhakti Yogyakarta pada tahun 2021.
+                S2 di STT Nazarene Yogyakarta pada tahun 2010, S3 di STT Teruna Bhakti Yogyakarta pada tahun 2021,
+                dan menjabat sebagai dosen di STT Bethel Ambon.
               </p>
             </div>
           </div>
