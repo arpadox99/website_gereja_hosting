@@ -1034,7 +1034,7 @@ hr.thick-hr {
     margin-right: 10px;
     margin-bottom: 0px;
   }
-} 
+}
 /* ukuran info saat layar hp super kecil*/
 @media (max-width: 360px) {
   .contactwa {
@@ -1191,6 +1191,16 @@ p.fontjs {
 @media (min-width: 1280px) and (max-width: 1300px) {
   p.fontjs {
     font-size: 2rem;
+  }
+}
+@media (max-width: 428px) {
+  p.fontjs {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 390px) {
+  p.fontjs {
+    font-size: 1rem;
   }
 }
 /* MInistry JS end */
