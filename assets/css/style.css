@@ -322,21 +322,21 @@ a#text h3 {
   width: auto; /* lebar */
   height: 560px; /* tinggi */
 }
-img#SMpage,
+/* img#SMpage,
 img#DPpage,
 img#IDPpage,
 img#ISpage,
 img#IPSpage,
 img#IWBIpage {
   border-radius: 3%; /* rounded menu services*/
-  width: auto; /* lebar */
-  height: 600px; /* tinggi */
-}
-img#IPSpage {
-  border-radius: 3%; /* rounded menu services*/
-  width: auto; /* lebar */
-  height: 600px; /* tinggi */
-}
+  /* width: auto; /* lebar */
+  /* height: 600px; tinggi */
+/* } */
+/* img#IPSpage { */
+  /* border-radius: 3%; rounded menu services */
+  /* width: auto; lebar */
+  /* height: 600px; tinggi */
+/* }  */
 #classSM,
 #classIWBI,
 #classIPS,
