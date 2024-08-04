@@ -48,47 +48,30 @@
             $role = htmlspecialchars($r['role']);
             $gambar_slider = htmlspecialchars($r['gambar_slider']);
 
-            // Mendapatkan root direktori server
-            $root_dir = $_SERVER['DOCUMENT_ROOT'];
-            $gambar_path = $root_dir . "/img/Media/$role/$gambar_slider";
+            // Menentukan path gambar berdasarkan role
+            $gambar_path = "../../img/Media/$role/$gambar_slider";
 
-            // Debugging: Tampilkan path yang dihasilkan
-            echo "Path gambar absolut: " . $gambar_path . "<br>";
-
-            // Periksa apakah file gambar ada
-            if (file_exists($gambar_path)) {
-              // Gunakan path relatif untuk menampilkan gambar
-              $display_path = "/img/Media/$role/$gambar_slider";
-              echo "
-                <tr>
-                  <td>" . htmlspecialchars($no++) . "</td>
-                  <td style='width: 100px;'> <!-- Ensure the image column has a fixed width -->
-                    <img src='$display_path' class='img-fluid' style='max-width: 250px;'> <!-- Responsive image -->
-                  </td>
-                  <td>" . $gambar_slider . "</td>
-                  <td>" . htmlspecialchars($r['judul_slider']) . "</td>
-                  <td>" . htmlspecialchars($r['deskripsi_slider']) . "</td>
-                  <td>" . $role . "</td>
-                  <td>
-                    <a class='btn btn-warning btn-sm text-white' href='index.php?page=mediaedit&id_gambar=" . htmlspecialchars($r['id_gambar']) . "'><i class='fas fa-pencil'></i></a>
-                  </td>
-                  <td>
-                    <a class='btn btn-danger btn-sm' href='index.php?page=mediadelete&id_gambar=" . htmlspecialchars($r['id_gambar']) . "' onclick=\"return confirm('Hapus Data?')\"><i class='fas fa-trash'></i></a>
-                  </td>
-                </tr>
-              ";
-            } else {
-              echo "
-                <tr>
-                  <td>" . htmlspecialchars($no++) . "</td>
-                  <td colspan='7'>File gambar tidak ditemukan: $gambar_path</td>
-                </tr>
-              ";
-            }
+            echo "
+                  <tr>
+                    <td>" . htmlspecialchars($no++) . "</td>
+                    <td style='width: 100px;'> <!-- Ensure the image column has a fixed width -->
+                      <img src='$gambar_path' class='img-fluid' style='max-width: 250px;'> <!-- Responsive image -->
+                    </td>
+                    <td>" . $gambar_slider . "</td>
+                    <td>" . htmlspecialchars($r['judul_slider']) . "</td>
+                    <td>" . htmlspecialchars($r['deskripsi_slider']) . "</td>
+                    <td>" . $role . "</td>
+                    <td>
+                      <a class='btn btn-warning btn-sm text-white' href='index.php?page=mediaedit&id_gambar=" . htmlspecialchars($r['id_gambar']) . "'><i class='fas fa-pencil'></i></a>
+                    </td>
+                    <td>
+                      <a class='btn btn-danger btn-sm' href='index.php?page=mediadelete&id_gambar=" . htmlspecialchars($r['id_gambar']) . "' onclick=\"return confirm('Hapus Data?')\"><i class='fas fa-trash'></i></a>
+                    </td>
+                  </tr>
+                ";
           }
           ?>
         </tbody>
-
       </table>
     </div>
   </div>
