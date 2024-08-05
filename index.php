@@ -113,7 +113,7 @@
             <i class="fa-solid fa-location-dot" style="color: #f00000;"></i>
             Jl. DR Setia Budi No.42 Ambon
           </h4>
-          <a id="link" target="blank" href="https://maps.app.goo.gl/2NXuiVWMxX5AygVb8"> View Location </a>
+          <a id="link" target="blank" href="https://maps.app.goo.gl/dfsBPz1heQDQMyX16"> View Location </a>
         </div>
         <div class="col-md-6">
           <h3 id="cabang">GBI God's Grace Cabang Halong</h3>
