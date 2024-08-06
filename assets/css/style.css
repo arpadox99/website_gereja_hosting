@@ -1127,6 +1127,12 @@ span#jsspan {
     padding-top: 0;
   }
 }
+@media (min-width: 969px) and (max-width: 991px) {
+  .ministriesfooter {
+    margin-top: 200px;
+  }
+}
+
 
 /* Ministry JS */
 .text-box {
