@@ -915,10 +915,10 @@ hr.thick-hr {
   }
 }
 /* ukuran info saat layar hp besar*/
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .contactwa {
-    margin-top: -190px;
-    margin-bottom: 0;
+    margin-top: 400px;
+    margin-left: 10px;
   }
   .contactwa .wa-button {
     border-radius: 5px;
@@ -933,10 +933,26 @@ hr.thick-hr {
     height: 30px;
   }
 }
-/* ukuran info saat layar hp kecil*/
-@media (max-width: 428px) {
+@media (min-width: 440px) and (max-width: 767px) {
   .contactwa {
-    margin-top: -105px;
+    margin-top: -150px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  .wa-button {
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 15px;
+    padding: 2px 10px;
+  }
+  .IconWhatsapp img {
+    height: 30px;
+  }
+}
+/* ukuran info saat layar hp kecil*/
+@media (max-width: 439px) {
+  .contactwa {
+    margin-top: -107px;
     margin-bottom: 5px;
     margin-left: 5px;
   }
@@ -954,7 +970,7 @@ hr.thick-hr {
   }
 }
 /* ukuran info saat layar hp kecil*/
-@media (max-width: 392px) {
+@media (max-width: 400px) {
   .contactwa {
     margin-top: -100px;
     margin-bottom: 5px;
