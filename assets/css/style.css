@@ -294,17 +294,7 @@ a#text h3 {
   width: auto; /* lebar */
   height: 560px; /* tinggi */
 }
-img#SMpage,
-img#DPpage,
-img#IDPpage,
-img#ISpage,
-img#IPSpage,
-img#IWBIpage,
-img#IPSpage {
-  border-radius: 3%; /* rounded menu services*/
-  /* width: auto; lebar */
-  /* height: 600px; tinggi */
-}
+
 #classSM,
 #classIWBI,
 #classIPS,
@@ -341,6 +331,14 @@ img#IPSpage {
     margin-top: 140px;
     text-indent: 30px;
     font-size: 2rem;
+  }
+  #SM,
+  #IS,
+  #IWBI,
+  #IPS,
+  #DP,
+  #YGSM {
+    height: auto; /* tinggi */
   }
 }
 /* ukuran service saat layar */
