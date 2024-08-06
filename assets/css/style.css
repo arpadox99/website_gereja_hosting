@@ -303,6 +303,7 @@ a#text h3 {
   display: flex;
   flex-direction: column;
   min-height: 80vh;
+  border-radius: 3%;
   /* Menggunakan flexbox dengan flex-direction: column dan min-height: 80vh untuk membuat wrapper mengambil setidaknya tinggi viewport. */
 }
 
