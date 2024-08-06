@@ -777,6 +777,18 @@ article h4 {
     margin: 0;
     margin-top: 8px;
   }
+  .contactwaygsm {
+    margin-top: -120px;
+    margin-left: 60px;
+    margin-bottom: 0;
+  }
+  .contactwaygsm .waygsm-button {
+    width: 170px;
+    padding: 2px 2px;
+  }
+  #hrfWA {
+    font-size: .5rem;
+  }
 }
 /* ukuran kontak ygsm saat layar hp kecil*/
 @media (max-width: 400px) {
