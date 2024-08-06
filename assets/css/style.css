@@ -1129,10 +1129,10 @@ span#jsspan {
 }
 @media (min-width: 969px) and (max-width: 991px) {
   .ministriesfooter {
-    margin-top: 200px;
+    margin-top: 150px;
   }
   #ministries{
-    margin-bottom: 200px;
+    margin-bottom: 150px;
   }
 }
 
