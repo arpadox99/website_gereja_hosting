@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="../admin/css/admin.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
-    body,
-    html {
+    body, html {
       height: 100%;
       margin: 0;
       display: flex;
@@ -23,17 +22,13 @@
 
     .content {
       flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
     }
 
     .iframe-container {
       position: relative;
       width: 100%;
-      flex: 1;
-      overflow: hidden;
-      padding: 0;
+      height: 0;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
     }
 
     .iframe-container iframe {
