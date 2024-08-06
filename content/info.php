@@ -61,7 +61,7 @@ require_once '../config/config.php';
   <!-- navBar -->
 
   <!-- isi -->
-  <div>
+  <>
     <div id="info">
       <img src="../img/Info/bninfo.png" class="mx-auto d-block img-fluid" id="info1">
     </div>
@@ -140,39 +140,39 @@ require_once '../config/config.php';
         </div>
       </div>
     </div>
-  </div>
-  <!-- isi -->
 
-  <!-- footer -->
-  <div>
-    <footer class="link-light bg-dark">
-      <div class="mx-0 p-3 row justify-content-between ">
-        <div class="col-auto">
-          <small>
-            &copy; <script>
-              document.write(new Date().getFullYear());
-            </script> GOD'S GRACE
-          </small>
-        </div>
-        <div class="col-auto">
-          <div>
-            <a target="_blank" class="socialfooter" href="https://www.facebook.com/church.grace.940" title="Facebook GBI">
-              <img src="../img/facebook.png" width="30" height="30" alt="FB">
-            </a>
-            <a target="_blank" class="socialfooter" href="https://www.instagram.com/gbigodsgrace" title="Instagram GBI">
-              <img src="../img/instagram.png" width="30" height="30" alt="IG">
-            </a>
+    <!-- isi -->
+
+    <!-- footer -->
+    <div>
+      <footer class="link-light bg-dark">
+        <div class="mx-0 p-3 row justify-content-between ">
+          <div class="col-auto">
+            <small>
+              &copy; <script>
+                document.write(new Date().getFullYear());
+              </script> GOD'S GRACE
+            </small>
+          </div>
+          <div class="col-auto">
+            <div>
+              <a target="_blank" class="socialfooter" href="https://www.facebook.com/church.grace.940" title="Facebook GBI">
+                <img src="../img/facebook.png" width="30" height="30" alt="FB">
+              </a>
+              <a target="_blank" class="socialfooter" href="https://www.instagram.com/gbigodsgrace" title="Instagram GBI">
+                <img src="../img/instagram.png" width="30" height="30" alt="IG">
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-  </div>
-  <!-- footer -->
+      </footer>
+    </div>
+    <!-- footer -->
 
-  <script src="https://kit.fontawesome.com/08f3c3a570.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
-  </script>
+    <script src="https://kit.fontawesome.com/08f3c3a570.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
