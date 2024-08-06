@@ -331,11 +331,11 @@ img#IPSpage {
 /* ukuran service saat layar */
 @media (min-width: 969px) and (max-width: 991px) {
   .ibadah-raya {
-    min-height: 40vh;
+    min-height: 30vh;
   }
   h2.kop {
     font-size: 5rem;
-    margin-top: 60px;
+    margin-top: 70px;
   }
   p#IR {
     margin-bottom: 10px;
