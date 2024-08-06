@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="../admin/css/admin.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
-    body, html {
+    body,
+    html {
       height: 100%;
       margin: 0;
       display: flex;
@@ -24,13 +25,15 @@
       flex: 1;
       display: flex;
       flex-direction: column;
+      justify-content: flex-start;
     }
 
     .iframe-container {
       position: relative;
       width: 100%;
+      flex: 1;
       overflow: hidden;
-      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      padding: 0;
     }
 
     .iframe-container iframe {
@@ -54,15 +57,18 @@
 <body>
   <div class="container-fluid px-4">
     <div class="content">
-      <h1 class="mt-4"> Dashboard <span> <i class="fa-solid fa-cross"></i> </span></h1>
+      <h1 class="mt-4">Dashboard <span><i class="fa-solid fa-cross"></i></span></h1>
       <ol class="breadcrumb mb-4">
-        <li class="breadcrumb-item active"> Tampilan Website Gereja GBI GOD'S GRACE </li>
+        <li class="breadcrumb-item active">Tampilan Website Gereja GBI GOD'S GRACE</li>
       </ol>
       <div class="iframe-container">
         <iframe src="https://projectwebsitegereja.my.id/"></iframe>
       </div>
     </div>
   </div>
+  <footer>
+    &copy; 2024 GOD'S GRACE
+  </footer>
 </body>
 
 </html>
