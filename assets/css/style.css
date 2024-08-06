@@ -917,12 +917,12 @@ hr.thick-hr {
 /* ukuran info saat layar hp besar*/
 @media (max-width: 768px) {
   .contactwa {
-    margin-top: -110px;
+    margin-top: -190px;
     margin-bottom: 0;
   }
   .contactwa .wa-button {
     border-radius: 5px;
-    font-size: 0.55rem;
+    font-size: 1rem;
     margin-left: 18px;
     padding: 2px 5px;
   }
@@ -930,14 +930,15 @@ hr.thick-hr {
     margin-right: 5px;
   }
   .contactwa .IconWhatsapp img {
-    height: 15px;
+    height: 30px;
   }
 }
 /* ukuran info saat layar hp kecil*/
-@media (max-width: 425px) {
+@media (max-width: 428px) {
   .contactwa {
-    margin-top: -100px;
+    margin-top: -105px;
     margin-bottom: 5px;
+    margin-left: 5px;
   }
   .contactwa .wa-button {
     border-radius: 5px;
@@ -960,9 +961,9 @@ hr.thick-hr {
   }
   .contactwa .wa-button {
     border-radius: 5px;
-    font-size: 0.55rem;
+    font-size: 0.51rem;
     margin-left: 10px;
-    padding: 2px 5px;
+    padding: 2px 4px;
   }
   .contactwa .IconWhatsapp {
     margin-right: 5px;
@@ -974,15 +975,28 @@ hr.thick-hr {
 /* ukuran info saat layar hp super kecil*/
 @media (max-width: 376px) {
   .contactwa {
-    margin-top: -100px;
+    margin-top: -95px;
     margin-bottom: 5px;
+  }
+  .contactwa .wa-button {
+    border-radius: 5px;
+    font-size: 0.5rem;
+    margin-left: 5px;
+    padding: 2px 4px;
   }
 }
 /* ukuran info saat layar hp super kecil*/
 @media (max-width: 360px) {
   .contactwa {
-    margin-top: -100px;
+    margin-top: -90px;
     margin-bottom: 5px;
+    margin-left: 10px;
+  }
+  .contactwa .wa-button {
+    border-radius: 5px;
+    font-size: 0.45rem;
+    margin-left: 5px;
+    padding: 2px 4px;
   }
 }
 /* ------------------------------------------------ */
@@ -1128,6 +1142,11 @@ p.fontjs {
 @media (min-width: 1280px) and (max-width: 1300px) {
   p.fontjs {
     font-size: 2rem;
+  }
+}
+@media (max-width: 438px) {
+  p.fontjs {
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 428px) {
