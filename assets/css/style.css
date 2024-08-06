@@ -340,6 +340,9 @@ a#text h3 {
   #YGSM {
     height: auto; /* tinggi */
   }
+  #classSM{
+    margin-top: 100px;
+  }
 }
 /* ukuran service saat layar */
 @media (max-width: 768px) {
