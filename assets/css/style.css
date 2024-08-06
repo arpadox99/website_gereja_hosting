@@ -340,15 +340,18 @@ a#text h3 {
   #YGSM {
     height: auto; /* tinggi */
   }
-  #classSM{
+  #classSM {
     margin-top: 100px;
   }
-  #classSM p{
+  #classSM p {
     font-size: 3rem;
     margin-bottom: 80px;
   }
-  #classIWBI{
+  #classIWBI {
     margin-top: 50px;
+  }
+  #classIWBI p {
+   font-size: 3rem;
   }
 }
 /* ukuran service saat layar */
