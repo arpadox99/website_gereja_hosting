@@ -18,8 +18,8 @@
   <!-- navBar -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
-    <div class="container-xl d-flex justify-content-center align-items-center">
-    <a class="navbar-brand fw-bolder" href="#">
+      <div class="container-xl d-flex justify-content-center align-items-center">
+        <a class="navbar-brand fw-bolder" href="#">
           <img src="../img/Logo/gbi.png" width="50" height="50" alt="GBI">
           <img src="../img/Logo/ggm.png" width="50" height="50" alt="GGM">
         </a>
@@ -101,7 +101,7 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="row-md-12">
+              <div class="row">
                 <div class="text-box purple-box">Praise & Worship <br> "Grace Worshippers Training" </span> </div>
               </div>
               <div class=" row">
