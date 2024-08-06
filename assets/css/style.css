@@ -916,7 +916,7 @@ hr.thick-hr {
 }
 /* ukuran info saat layar hp besar*/
 
-@media (max-width: 976px) {
+@media (min-width: 969px) and (max-width: 991px) {
   .contactwa {
     margin-top: -230px;
     margin-left: -80px;
