@@ -331,7 +331,7 @@ img#IPSpage {
 /* ukuran service saat layar */
 @media (min-width: 969px) and (max-width: 991px) {
   .ibadah-raya {
-    min-height: 70vh;
+    min-height: 100vh;
   }
   h2.kop {
     font-size: 2rem;
