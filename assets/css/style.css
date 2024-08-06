@@ -933,6 +933,25 @@ hr.thick-hr {
     height: 30px;
   }
 }
+@media (max-width:976px) {
+  .contactwa {
+    margin-top: -230px;
+    margin-left: -80px;
+    margin-bottom: 0;
+  }
+  .contactwa .wa-button {
+    border-radius: 5px;
+    font-size: 1.4rem;
+    margin-left: 18px;
+    padding: 2px 5px;
+  }
+  .contactwa .IconWhatsapp {
+    margin-right: 5px;
+  }
+  .contactwa .IconWhatsapp img {
+    height: 30px;
+  }
+}
 @media (min-width: 439px) and (max-width: 767px) {
   .contactwa {
     margin-top: -120px;
