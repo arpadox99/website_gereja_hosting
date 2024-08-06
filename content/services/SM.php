@@ -78,7 +78,7 @@
 
   <!-- footer -->
   <div>
-    <footer class="link-light bg-dark">
+    <footer class="link-light bg-dark" id="classSMfooter">
       <div class="mx-0 p-3 row justify-content-between">
         <div class="col-auto">
           <small>

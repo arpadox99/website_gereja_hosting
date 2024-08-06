@@ -342,20 +342,27 @@ a#text h3 {
     height: auto; /* tinggi */
   }
   #classSM,
-  #classIWBI {
+  #classIWBI,
+  #classIPS,
+  #classDP,
+  #classIDP {
     margin-top: 100px;
   }
-  #classSM p {
+  #classSM p,
+  #classIWBI p,
+  #classIPS p,
+  #classDP p,
+  #classIDP p {
     font-size: 3rem;
-    margin-bottom: 80px;
   }
-  #classIWBIfooter{
+  #classSMfooter,
+  #classIWBIfooter,
+  #classIPSfooter,
+  #classDPfooter,
+  #classIDPfooter {
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
-  #classIWBI p {
-    font-size: 3rem;
   }
 }
 /* ukuran service saat layar */

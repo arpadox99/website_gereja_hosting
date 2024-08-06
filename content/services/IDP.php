@@ -59,23 +59,23 @@
   <!-- isi -->
   <div class="container" id="classIDP">
     <div class=" row text-church" id="bannerserv">
-    <h2 id="textserv"> Ibadah Doa Pelayan </h2>
-    <img draggable="false" src="../../img/Service/doapelayan2.jpg" class="mx-auto d-block img-fluid" alt="SM" id="IDPpage">
-  </div>
-  <div>
-    <article>
-      <p class="serv">
-        Ibadah Doa pelayan dilaksanakan setiap hari Sabtu untuk mempersiapkan para pelayan dalam melayani Tuhan di berbagai kegiatan ibadah selama sepekan.
-        Seluruh pelayan juga harus berpuasa sebagai tanda penyerahan diri secara total untuk dipakai Tuhan dalam pelayanan.
-      </p>
-    </article>
-  </div><br><br>
+      <h2 id="textserv"> Ibadah Doa Pelayan </h2>
+      <img draggable="false" src="../../img/Service/doapelayan2.jpg" class="mx-auto d-block img-fluid" alt="SM" id="IDPpage">
+    </div>
+    <div>
+      <article>
+        <p class="serv">
+          Ibadah Doa pelayan dilaksanakan setiap hari Sabtu untuk mempersiapkan para pelayan dalam melayani Tuhan di berbagai kegiatan ibadah selama sepekan.
+          Seluruh pelayan juga harus berpuasa sebagai tanda penyerahan diri secara total untuk dipakai Tuhan dalam pelayanan.
+        </p>
+      </article>
+    </div><br><br>
   </div>
   <!-- isi -->
 
   <!-- footer -->
   <div>
-    <footer class="link-light bg-dark">
+    <footer class="link-light bg-dark" id="classIDPfooter">
       <div class="mx-0 p-3 row justify-content-between">
         <div class="col-auto">
           <small>
