@@ -138,14 +138,6 @@ require_once '../config/config.php';
             </a>
           </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center">
-          <div class="card QR">
-            <img src="../img/Info/QR.png" alt="QR">
-            <div class="card-body">
-              SCAN ME!
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
