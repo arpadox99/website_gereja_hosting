@@ -341,18 +341,19 @@ a#text h3 {
   #YGSM {
     height: auto; /* tinggi */
   }
-  #classSM {
+  #classSM,
+  #classIWBI {
     margin-top: 100px;
   }
   #classSM p {
     font-size: 3rem;
     margin-bottom: 80px;
   }
-  #classIWBI {
-    margin-top: 100px;
+  #classIWBIfooter{
+    bottom: 0;
   }
   #classIWBI p {
-   font-size: 3rem;
+    font-size: 3rem;
   }
 }
 /* ukuran service saat layar */
