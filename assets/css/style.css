@@ -303,6 +303,13 @@ a#text h3 {
   display: flex;
   flex-direction: column;
   min-height: 80vh;
+  /* Menggunakan flexbox dengan flex-direction: column dan min-height: 80vh untuk membuat wrapper mengambil setidaknya tinggi viewport. */
+}
+#classSM img,
+#classIWBI img,
+#classIPS img,
+#classDP img,
+#classIDP img {
   border-radius: 3%;
   /* Menggunakan flexbox dengan flex-direction: column dan min-height: 80vh untuk membuat wrapper mengambil setidaknya tinggi viewport. */
 }
