@@ -96,12 +96,12 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <div class="row-md-12">
+              <div class="row">
                 <img src="../img/Ministries/praise.jpg" alt="Praise & Worship">
               </div>
             </div>
             <div class="col-md-6">
-              <div class="row">
+              <div class="row-md-12">
                 <div class="text-box purple-box">Praise & Worship <br> "Grace Worshippers Training" </span> </div>
               </div>
               <div class=" row">
