@@ -1131,11 +1131,17 @@ span#jsspan {
   .ministriesfooter {
     margin-top: 180px;
   }
-  #ministries{
+  #ministries {
     margin-bottom: 180px;
   }
+  #toggleText1,
+  #toggleText2 {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+  }
 }
-
 
 /* Ministry JS */
 .text-box {
