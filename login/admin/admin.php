@@ -66,9 +66,6 @@
       </div>
     </div>
   </div>
-  <footer>
-    &copy; 2024 GOD'S GRACE
-  </footer>
 </body>
 
 </html>
