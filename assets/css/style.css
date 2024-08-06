@@ -262,34 +262,6 @@ p#IR {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* ukuran service saat layar */
-@media (min-width: 1280px) and (max-width: 1300px) {
-  h2.kop {
-    font-size: 3rem;
-    margin-top: 80px;
-  }
-  p#IR {
-    margin-top: 80px;
-    text-indent: 30px;
-    font-size: 2.6rem;
-  }
-}
-/* ukuran service saat layar */
-@media (max-width: 768px) {
-  .ibadah-raya {
-    min-height: 30vh;
-  }
-  h2.kop {
-    font-size: 1rem;
-    margin-top: 25px;
-  }
-  p#IR {
-    margin-bottom: 10px;
-    text-indent: 30px;
-    font-size: 0.6rem;
-  }
-}
-
 body.colorserv {
   background-color: black;
 }
@@ -345,7 +317,46 @@ img#IPSpage {
 }
 
 /* ukuran service saat layar */
+@media (min-width: 1280px) and (max-width: 1300px) {
+  h2.kop {
+    font-size: 3rem;
+    margin-top: 80px;
+  }
+  p#IR {
+    margin-top: 80px;
+    text-indent: 30px;
+    font-size: 2.6rem;
+  }
+}
+/* ukuran service saat layar */
+@media (min-width: 969px) and (max-width: 991px) {
+  .ibadah-raya {
+    min-height: 70vh;
+  }
+  h2.kop {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  p#IR {
+    margin-bottom: 10px;
+    text-indent: 30px;
+    font-size: 2rem;
+  }
+}
+/* ukuran service saat layar */
 @media (max-width: 768px) {
+  .ibadah-raya {
+    min-height: 30vh;
+  }
+  h2.kop {
+    font-size: 1rem;
+    margin-top: 25px;
+  }
+  p#IR {
+    margin-bottom: 10px;
+    text-indent: 30px;
+    font-size: 0.6rem;
+  }
   #SM,
   #IS,
   #IWBI,
