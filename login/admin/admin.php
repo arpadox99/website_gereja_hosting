@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="../admin/css/admin.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
-    body,
-    html {
+    body, html {
       height: 100%;
       margin: 0;
       display: flex;
@@ -23,20 +22,15 @@
 
     .content {
       flex: 1;
-      /* This allows the content to fill the available space */
-      padding-bottom: 10px;
-      /* Height of the footer */
-      box-sizing: border-box;
-      /* Ensure padding is included in the height calculation */
+      display: flex;
+      flex-direction: column;
     }
 
     .iframe-container {
       position: relative;
       width: 100%;
-      height: 0;
-      padding-top: 56.25%;
-      /* 16:9 Aspect Ratio */
       overflow: hidden;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
     }
 
     .iframe-container iframe {
