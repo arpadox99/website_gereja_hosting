@@ -350,7 +350,9 @@ a#text h3 {
     margin-bottom: 80px;
   }
   #classIWBIfooter{
+    position: fixed;
     bottom: 0;
+    width: 100%;
   }
   #classIWBI p {
     font-size: 3rem;
