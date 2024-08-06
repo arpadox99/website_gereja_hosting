@@ -1129,10 +1129,10 @@ span#jsspan {
 }
 @media (min-width: 969px) and (max-width: 991px) {
   .ministriesfooter {
-    margin-top: 180px;
+    margin-top: 190px;
   }
   #ministries {
-    margin-bottom: 180px;
+    margin-bottom: 190px;
   }
   #toggleText1,
   #toggleText2 {
