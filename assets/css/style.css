@@ -1144,6 +1144,10 @@ span#jsspan {
   .custom-border {
     width: 100%;
   }
+  .purple-box {
+    width: 100%;
+    margin: 10px auto;
+  }
 }
 
 /* Ministry JS */
