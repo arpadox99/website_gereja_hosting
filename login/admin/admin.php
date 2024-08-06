@@ -46,6 +46,14 @@
       position: relative;
       bottom: 0;
     }
+
+    /* Media query for specific wider screens */
+    @media (min-width: 414px) and (max-width: 438px) {
+      .iframe-container {
+        height: calc(100vh - 150px); /* Adjust this value based on header and footer height */
+        padding-bottom: 0; /* Remove the aspect ratio padding */
+      }
+    }
   </style>
 </head>
 
