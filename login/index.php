@@ -54,7 +54,7 @@ require_once '../config/config.php';
         </form> -->
         <!-- Form Login -->
         <form class="login-form" method="POST">
-          <h2><i class="bi bi-lock-fill"></i> Admin LogIn </h2><br>
+          <h2><i class="bi bi-lock-fill"></i> ADMIN LOGIN </h2><br>
           <div class="form-group">
             <input type="username" name="username" placeholder="Username" required="" autocomplete="off"><br>
             <input type="password" name="password" placeholder="Password" required="" autocomplete="off"><br><br>
