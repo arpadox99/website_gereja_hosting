@@ -187,7 +187,7 @@
       </div>
     </div> <br>
     <!-- Caption Pisah -->
-    <div class="container mt-4" id="pujian suara - PJS">
+    <div class="container mt-4" id="pujian suara - PSS">
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
@@ -226,10 +226,7 @@
           ?>
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-              <div class="carousel-caption d-md-block">
-                <h3><?= $judul_slider ?></h3>
-                <p><?= $deskripsi_slider ?></p>
-              </div>
+
             </div>
           <?php
             $isActive = false; // Menonaktifkan status aktif setelah slide pertama
