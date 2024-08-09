@@ -43,7 +43,7 @@
         <tbody>
           <?php
           $no = 1;
-          $sql = $con->query("SELECT * FROM slider");
+          $sql = $con->query("SELECT * FROM slider ORDER BY role ASC");
           while ($r = $sql->fetch()) {
             $role = htmlspecialchars($r['role']);
             $gambar_slider = htmlspecialchars($r['gambar_slider']);
