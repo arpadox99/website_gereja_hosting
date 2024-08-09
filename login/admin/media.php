@@ -44,6 +44,9 @@
           <?php
           $no = 1;
           $sql = $con->query("SELECT * FROM slider ORDER BY role ASC");
+          echo "<pre>";
+            var_dump($sql->fetchAll());
+          echo "</pre>";
           while ($r = $sql->fetch()) {
             $role = htmlspecialchars($r['role']);
             $gambar_slider = htmlspecialchars($r['gambar_slider']);
