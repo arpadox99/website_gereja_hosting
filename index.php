@@ -153,7 +153,7 @@
         <img draggable="false" src="img/Home/departemen.png" class="mx-auto d-block img-fluid">
       </div>
       <div>
-        <img draggable="false" src="img/Home/pejabat.png" class="mx-auto d-block img-fluid">
+        <img draggable="false" src="img/Home/pejabat.jpg" class="mx-auto d-block img-fluid">
       </div>
     </div>
   </div>
