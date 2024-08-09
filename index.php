@@ -127,7 +127,7 @@
       </div>
     </div><br>
     <div id="gembala">
-      <img src="img/Home/gembala.png" alt="gembala" id="gembala" class="mx-auto d-block img-fluid" draggable="false">
+      <img src="img/Home/gembala.jpg" alt="gembala" id="gembala" class="mx-auto d-block img-fluid" draggable="false">
     </div>
     <div id="socialmediagembala">
       <div class="possosmed">
