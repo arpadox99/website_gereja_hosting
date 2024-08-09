@@ -132,7 +132,7 @@ if (!$data) {
                     <?php if ($gambar_slider && $role) : ?>
                       <div class="mt-3">
                         <!-- Menentukan path gambar berdasarkan role yg diambil -->
-                        <img src="../img/img_upload/<?= htmlspecialchars($role) ?>/<?= htmlspecialchars($gambar_slider) ?>" alt="Gambar Slider" style="max-width: 100%;">
+                        <img src="../img/Media/<?= htmlspecialchars($role) ?>/<?= htmlspecialchars($gambar_slider) ?>" alt="Gambar Slider" style="max-width: 100%;">
                       </div>
                     <?php endif; ?>
                   </div>
