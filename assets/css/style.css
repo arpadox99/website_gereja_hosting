@@ -332,6 +332,15 @@ a#text h3 {
     text-indent: 30px;
     font-size: 2.6rem;
   }
+  #SM,
+  #IS,
+  #IWBI,
+  #IPS,
+  #DP,
+  #YGSM {
+    width: 500px; /* lebar after mobile */
+    height: auto; /* Tinggi menyesuaikan */
+  }
 }
 /* ukuran service saat layar */
 @media (min-width: 969px) and (max-width: 991px) {
