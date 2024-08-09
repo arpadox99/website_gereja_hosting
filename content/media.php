@@ -191,7 +191,7 @@
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '4'; // Ganti dengan nilai role yang sesuai
+      $role = isset($_GET['role']) ? $_GET['role'] : '3'; // Ganti dengan nilai role yang sesuai
 
       // Ambil data gambar, judul, dan deskripsi dari database berdasarkan role
       $cari = $con->prepare("SELECT gambar_slider, judul_slider, deskripsi_slider FROM slider WHERE role = ?");
@@ -451,7 +451,7 @@
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '4'; // Ganti dengan nilai role yang sesuai
+      $role = isset($_GET['role']) ? $_GET['role'] : '8'; // Ganti dengan nilai role yang sesuai
 
       // Ambil data gambar, judul, dan deskripsi dari database berdasarkan role
       $cari = $con->prepare("SELECT gambar_slider, judul_slider, deskripsi_slider FROM slider WHERE role = ?");
@@ -653,7 +653,7 @@
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '4'; // Ganti dengan nilai role yang sesuai
+      $role = isset($_GET['role']) ? $_GET['role'] : '12'; // Ganti dengan nilai role yang sesuai
 
       // Ambil data gambar, judul, dan deskripsi dari database berdasarkan role
       $cari = $con->prepare("SELECT gambar_slider, judul_slider, deskripsi_slider FROM slider WHERE role = ?");
@@ -711,7 +711,7 @@
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '4'; // Ganti dengan nilai role yang sesuai
+      $role = isset($_GET['role']) ? $_GET['role'] : '13'; // Ganti dengan nilai role yang sesuai
 
       // Ambil data gambar, judul, dan deskripsi dari database berdasarkan role
       $cari = $con->prepare("SELECT gambar_slider, judul_slider, deskripsi_slider FROM slider WHERE role = ?");
