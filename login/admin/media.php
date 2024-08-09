@@ -27,7 +27,6 @@
                     </button>
                 </div>
             </div>
-
             <thead>
                 <tr>
                     <th> NO </th>
@@ -43,7 +42,7 @@
             <tbody>
                 <?php
                 $no = 1;
-                $sql = $con->query("SELECT * FROM slider ORDER BY role ASC");
+                $sql = $con->query("SELECT * FROM slider ORDER BY role + 0 ASC");
                 while ($r = $sql->fetch()) {
                     $role = htmlspecialchars($r['role']);
                     $gambar_slider = htmlspecialchars($r['gambar_slider']);
