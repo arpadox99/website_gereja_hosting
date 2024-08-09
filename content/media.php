@@ -191,16 +191,16 @@
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '3'; // Ganti dengan nilai role yang sesuai
+      $role = isset($_GET['role']) ? $_GET['role'] : '4'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+      // Ambil data gambar, judul, dan deskripsi dari database berdasarkan role
+      $cari = $con->prepare("SELECT gambar_slider, judul_slider, deskripsi_slider FROM slider WHERE role = ?");
       $cari->bindParam(1, $role);
       $cari->execute();
 
       $jumlah = $cari->rowCount();
       ?>
-
+      
       <div id="carousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
         <div class="carousel-indicators">
           <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
@@ -226,7 +226,10 @@
           ?>
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
-
+              <div class="carousel-caption d-md-block">
+                <h3><?= $judul_slider ?></h3>
+                <p><?= $deskripsi_slider ?></p>
+              </div>
             </div>
           <?php
             $isActive = false; // Menonaktifkan status aktif setelah slide pertama
@@ -255,6 +258,7 @@
 
       $jumlah = $cari->rowCount();
       ?>
+
       <div id="carousel4" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
         <div class="carousel-indicators">
           <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
@@ -447,10 +451,10 @@
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '8'; // Ganti dengan nilai role yang sesuai
+      $role = isset($_GET['role']) ? $_GET['role'] : '4'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+      // Ambil data gambar, judul, dan deskripsi dari database berdasarkan role
+      $cari = $con->prepare("SELECT gambar_slider, judul_slider, deskripsi_slider FROM slider WHERE role = ?");
       $cari->bindParam(1, $role);
       $cari->execute();
 
@@ -649,10 +653,10 @@
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '12'; // Ganti dengan nilai role yang sesuai
+      $role = isset($_GET['role']) ? $_GET['role'] : '4'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+      // Ambil data gambar, judul, dan deskripsi dari database berdasarkan role
+      $cari = $con->prepare("SELECT gambar_slider, judul_slider, deskripsi_slider FROM slider WHERE role = ?");
       $cari->bindParam(1, $role);
       $cari->execute();
 
@@ -707,10 +711,10 @@
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
-      $role = isset($_GET['role']) ? $_GET['role'] : '13'; // Ganti dengan nilai role yang sesuai
+      $role = isset($_GET['role']) ? $_GET['role'] : '4'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+      // Ambil data gambar, judul, dan deskripsi dari database berdasarkan role
+      $cari = $con->prepare("SELECT gambar_slider, judul_slider, deskripsi_slider FROM slider WHERE role = ?");
       $cari->bindParam(1, $role);
       $cari->execute();
 
