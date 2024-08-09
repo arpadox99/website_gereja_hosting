@@ -186,6 +186,7 @@
         </button>
       </div>
     </div> <br>
+    <!-- Caption Pisah -->
     <div class="container mt-4" id="pujian suara - PJS">
       <?php
       include '../config/config.php';
@@ -210,21 +211,30 @@
         <div class="carousel-inner">
           <?php
           $isActive = true; // Menandai slide pertama sebagai aktif
+          $slideData = []; // Array untuk menyimpan data slide
+
           // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) {
+            $slideData[] = $row;
+          }
+
+          foreach ($slideData as $index => $slide) :
+            $gambar_slider = htmlspecialchars($slide['gambar_slider']); // Mengamankan output gambar dari database
+            $judul_slider = htmlspecialchars($slide['judul_slider']); // Mengamankan output judul dari database
+            $deskripsi_slider = htmlspecialchars($slide['deskripsi_slider']); // Mengamankan output deskripsi dari database
             $path_to_image = "../login/img/Media/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
           ?>
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+              <div class="carousel-caption d-md-block">
+                <h3><?= $judul_slider ?></h3>
+                <p><?= $deskripsi_slider ?></p>
+              </div>
             </div>
-            <?php
+          <?php
             $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> PERSEMBAHAN PUJIAN SETIAP SEKTOR </h3>
+          endforeach;
+          ?>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -234,7 +244,7 @@
         </button>
       </div>
     </div> <br>
-    <!-- Caption Sektor Pisah -->
+    <!-- Caption Pisah -->
     <div class="container mt-4" id="ibadah sektor - IS">
       <?php
       include '../config/config.php';
@@ -291,7 +301,6 @@
         </button>
       </div>
     </div> <br>
-    <!-- Caption Sektor Pisah -->
     <div class="container mt-4" id="god grace kids - GGK">
       <?php
       include '../config/config.php';
@@ -436,6 +445,7 @@
         </button>
       </div>
     </div> <br>
+    <!-- Caption Pisah -->
     <div class="container mt-4" id="grace worshippers training - GWT">
       <?php
       include '../config/config.php';
@@ -460,21 +470,30 @@
         <div class="carousel-inner">
           <?php
           $isActive = true; // Menandai slide pertama sebagai aktif
+          $slideData = []; // Array untuk menyimpan data slide
+
           // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) {
+            $slideData[] = $row;
+          }
+
+          foreach ($slideData as $index => $slide) :
+            $gambar_slider = htmlspecialchars($slide['gambar_slider']); // Mengamankan output gambar dari database
+            $judul_slider = htmlspecialchars($slide['judul_slider']); // Mengamankan output judul dari database
+            $deskripsi_slider = htmlspecialchars($slide['deskripsi_slider']); // Mengamankan output deskripsi dari database
             $path_to_image = "../login/img/Media/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
           ?>
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+              <div class="carousel-caption d-md-block">
+                <h3><?= $judul_slider ?></h3>
+                <p><?= $deskripsi_slider ?></p>
+              </div>
             </div>
-            <?php
+          <?php
             $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> GRACE WORSHIPPERS TRAINING </h3>
+          endforeach;
+          ?>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -628,6 +647,7 @@
         </button>
       </div>
     </div> <br>
+    <!-- Caption Pisah -->
     <div class="container mt-4" id="god's grace music mission - GGMM">
       <?php
       include '../config/config.php';
@@ -652,21 +672,30 @@
         <div class="carousel-inner">
           <?php
           $isActive = true; // Menandai slide pertama sebagai aktif
+          $slideData = []; // Array untuk menyimpan data slide
+
           // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) {
+            $slideData[] = $row;
+          }
+
+          foreach ($slideData as $index => $slide) :
+            $gambar_slider = htmlspecialchars($slide['gambar_slider']); // Mengamankan output gambar dari database
+            $judul_slider = htmlspecialchars($slide['judul_slider']); // Mengamankan output judul dari database
+            $deskripsi_slider = htmlspecialchars($slide['deskripsi_slider']); // Mengamankan output deskripsi dari database
             $path_to_image = "../login/img/Media/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
           ?>
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+              <div class="carousel-caption d-md-block">
+                <h3><?= $judul_slider ?></h3>
+                <p><?= $deskripsi_slider ?></p>
+              </div>
             </div>
-            <?php
+          <?php
             $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> GOD'S GRACE MUSIC MISSION </h3>
+          endforeach;
+          ?>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel12" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -676,6 +705,7 @@
         </button>
       </div>
     </div> <br>
+    <!-- Caption Pisah -->
     <div class="container mt-4" id="berbagi kasih - BK">
       <?php
       include '../config/config.php';
@@ -700,21 +730,30 @@
         <div class="carousel-inner">
           <?php
           $isActive = true; // Menandai slide pertama sebagai aktif
+          $slideData = []; // Array untuk menyimpan data slide
+
           // Loop untuk menampilkan slide berdasarkan data dari database
-          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
-            $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
+          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) {
+            $slideData[] = $row;
+          }
+
+          foreach ($slideData as $index => $slide) :
+            $gambar_slider = htmlspecialchars($slide['gambar_slider']); // Mengamankan output gambar dari database
+            $judul_slider = htmlspecialchars($slide['judul_slider']); // Mengamankan output judul dari database
+            $deskripsi_slider = htmlspecialchars($slide['deskripsi_slider']); // Mengamankan output deskripsi dari database
             $path_to_image = "../login/img/Media/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
           ?>
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+              <div class="carousel-caption d-md-block">
+                <h3><?= $judul_slider ?></h3>
+                <p><?= $deskripsi_slider ?></p>
+              </div>
             </div>
-            <?php
+          <?php
             $isActive = false; // Menonaktifkan status aktif setelah slide pertama
-            ?>
-          <?php endwhile; ?>
-        </div>
-        <div class="carousel-caption d-md-block">
-          <h3> BERBAGI KASIH </h3>
+          endforeach;
+          ?>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel13" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
