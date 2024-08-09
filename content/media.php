@@ -227,8 +227,8 @@
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
               <div class="carousel-caption d-md-block">
-                <h3><?= $judul_slider ?></h3>
-                <p><?= $deskripsi_slider ?></p>
+                <h3><?= htmlspecialchars_decode($judul_slider) ?></h3>
+                <p><?= htmlspecialchars_decode($deskripsi_slider) ?></p>
               </div>
             </div>
           <?php
@@ -285,8 +285,8 @@
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
               <div class="carousel-caption d-md-block">
-                <h3><?= $judul_slider ?></h3>
-                <p><?= $deskripsi_slider ?></p>
+                <h3><?= htmlspecialchars_decode($judul_slider) ?></h3>
+                <p><?= htmlspecialchars_decode($deskripsi_slider) ?></p>
               </div>
             </div>
           <?php
@@ -487,8 +487,8 @@
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
               <div class="carousel-caption d-md-block">
-                <h3><?= $judul_slider ?></h3>
-                <p><?= $deskripsi_slider ?></p>
+                <h3><?= htmlspecialchars_decode($judul_slider) ?></h3>
+                <p><?= htmlspecialchars_decode($deskripsi_slider) ?></p>
               </div>
             </div>
           <?php
@@ -689,8 +689,8 @@
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
               <div class="carousel-caption d-md-block">
-                <h3><?= $judul_slider ?></h3>
-                <p><?= $deskripsi_slider ?></p>
+                <h3><?= htmlspecialchars_decode($judul_slider) ?></h3>
+                <p><?= htmlspecialchars_decode($deskripsi_slider) ?></p>
               </div>
             </div>
           <?php
@@ -747,8 +747,8 @@
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
               <div class="carousel-caption d-md-block">
-                <h3><?= $judul_slider ?></h3>
-                <p><?= $deskripsi_slider ?></p>
+                <h3><?= htmlspecialchars_decode($judul_slider) ?></h3>
+                <p><?= htmlspecialchars_decode($deskripsi_slider) ?></p>
               </div>
             </div>
           <?php
