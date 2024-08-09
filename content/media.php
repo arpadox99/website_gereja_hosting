@@ -580,7 +580,7 @@
         </button>
       </div>
     </div> <br>
-    <div class="container mt-4" id="worship mision waisai - MIS-WAISAI">
+    <div class="container mt-4" id="perjamuan kasih - PKH">
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
@@ -618,7 +618,7 @@
           <?php endwhile; ?>
         </div>
         <div class="carousel-caption d-md-block">
-          <h3> WORSHIP MISSION WAISAI </h3>
+          <h3> PERJAMUAN KASIH </h3>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel11" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
