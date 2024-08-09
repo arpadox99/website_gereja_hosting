@@ -68,7 +68,7 @@
           Pria Sejati adalah Imam bagi keluarga dan rumah tangganya. Oleh karena itu, seorang pria sejati harus memberikan finansial yang cukup bagi keluarganya dan terlebih lagi sebagai seorang pria sejati, ia harus menjadi teladan dalam hal kerohanian bagi keluarga, bagi istri dan bagi anak-anaknya.
         </p>
         <p class="serv">
-          Oleh karena itu, Ibadah Pria sejati diperuntukkan bagi semua pria yang mau belajar tentang kebenaran Firman Tuhan yang menumbuhkan iman, bahkan yang mau menjadikan semua pria menjadi pria yang berjalan sesuai kebenaran Firman Tuhan.
+          Oleh karena itu, Ibadah Pria sejati yang dilaksanakan setiap hari jumat diperuntukkan bagi semua pria yang mau belajar tentang kebenaran Firman Tuhan yang menumbuhkan iman, bahkan yang mau menjadikan semua pria menjadi pria yang berjalan sesuai kebenaran Firman Tuhan.
         </p>
       </article>
     </div><br><br>

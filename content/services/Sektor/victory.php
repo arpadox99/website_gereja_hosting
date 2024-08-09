@@ -77,9 +77,9 @@
           </div>
           <div class=" row">
             <div class="about-text">
-              <h5>Pdm. Ny Saar Palijama/Berhitu, M.Th</h5>
+              <h5>Pdm. Ny. Saar Palijama/Berhitu, M.Th</h5>
               <p>
-                Pdm. Ny Saar Palijama/Berhitu, M.Th menikah dengan Bapak Melchior Palijama dan memiliki 2 anak (Melsa Palijama dan Sarlinda Palijama).
+                Pdm. Ny. Saar Palijama/Berhitu, M.Th menikah dengan Bapak Melchior Palijama dan memiliki 2 anak (Melsa Palijama dan Sarlinda Palijama).
               </p>
               <p>
                 Menyelesaikan S1 pada tanggal 01 Juni 2009 di STT INJIL INDONESIA - Ambon dan S2 pada tanggal 20 November 2012 di STT NASARENE INDONESIA - Yogyakarta.

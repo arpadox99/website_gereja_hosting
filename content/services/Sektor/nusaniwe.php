@@ -77,9 +77,9 @@
           </div>
           <div class=" row">
             <div class="about-text">
-              <h5>Pdp. Ny. Carolina Paais, S.Th</h5>
+              <h5>Pdp. Ny. Carolina Matulatuwa/Paais, S.Th</h5>
               <p>
-                Pdp. Ny. Carolina Paais, S.Th menikah dengan Pdm. Drs Marthinus Matulatuwa dan memiliki 2 anak
+                Pdp. Ny. Carolina Matulatuwa/Paais, S.Th menikah dengan Pdm. Drs. Marthinus Matulatuwa dan memiliki 2 anak
                 (Pdp. Ny. Barsalin Titahena/M dan Marchel Matulatuwa), 2 menantu dan 5 orang cucu.
                 Menyelesaikan S1 Theologia pada tahun 2012 di STTII Ambon.
               </p>
