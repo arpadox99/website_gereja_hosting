@@ -124,7 +124,7 @@
         <ul>
           <li> 0. Banner </li>
           <li> 1. Ibadah Raya </li>
-          <li> 2. Perjamuan Kasih </li>
+          <li> 2. Perjamuan Kudus </li>
           <li> 3. Persembahan Pujian </li>
           <li> 4. Ibadah Sektor </li>
           <li> 5. God's Grace Kids </li>
@@ -133,7 +133,7 @@
           <li> 8. Grace Worshipers Training </li>
           <li> 9. Penyerahan Anak </li>
           <li> 10. Baptisan Air </li>
-          <li> 11. Worship Mission Waisai </li>
+          <li> 11. Perjamuan Kasih </li>
           <li> 12. God's Grace Music Mission </li>
           <li> 13. Berbagi Kasih </li>
           <li> 14. Kunjungan Akhir Tahun </li>

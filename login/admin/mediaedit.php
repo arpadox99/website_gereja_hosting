@@ -97,7 +97,7 @@ if (!$data) {
                         <select class="form-select" id="Role" name="role" aria-label="Example select with button addon" required>
                           <option value="28" <?= ($role == 28) ? 'selected' : '' ?>> 0. Banner </option>
                           <option value="1" <?= ($role == 1) ? 'selected' : '' ?>> 1. Ibadah Raya </option>
-                          <option value="2" <?= ($role == 2) ? 'selected' : '' ?>> 2. Perjamuan Kasih </option>
+                          <option value="2" <?= ($role == 2) ? 'selected' : '' ?>> 2. Perjamuan Kudus </option>
                           <option value="3" <?= ($role == 3) ? 'selected' : '' ?>> 3. Persembahan Pujian </option>
                           <option value="4" <?= ($role == 4) ? 'selected' : '' ?>> 4. Ibadah Sektor </option>
                           <option value="5" <?= ($role == 5) ? 'selected' : '' ?>> 5. God's Grace Kids </option>
@@ -106,7 +106,7 @@ if (!$data) {
                           <option value="8" <?= ($role == 8) ? 'selected' : '' ?>> 8. Grace Worshipers Training </option>
                           <option value="9" <?= ($role == 9) ? 'selected' : '' ?>>> 9. Penyerahan Anak </option>
                           <option value="10" <?= ($role == 10) ? 'selected' : '' ?>>> 10. Baptisan Air </option>
-                          <option value="11" <?= ($role == 11) ? 'selected' : '' ?>>> 11. Worship Mission Waisai </option>
+                          <option value="11" <?= ($role == 11) ? 'selected' : '' ?>>> 11. Perjamuan Kasih </option>
                           <option value="12" <?= ($role == 12) ? 'selected' : '' ?>>> 12. God's Grace Music Mission </option>
                           <option value="13" <?= ($role == 13) ? 'selected' : '' ?>>> 13. Berbagi Kasih </option>
                           <option value="14" <?= ($role == 14) ? 'selected' : '' ?>>> 14. Kunjungan Akhir Tahun </option>

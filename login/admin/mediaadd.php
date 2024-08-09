@@ -37,7 +37,7 @@
                       <option selected>Pilih Level...</option>
                       <option value="28"> 0. Banner </option>
                       <option value="1"> 1. Ibadah Raya </option>
-                      <option value="2"> 2. Perjamuan Kasih </option>
+                      <option value="2"> 2. Perjamuan Kudus </option>
                       <option value="3"> 3. Persembahan Pujian </option>
                       <option value="4"> 4. Ibadah Sektor </option>
                       <option value="5"> 5. God's Grace Kids </option>
@@ -46,7 +46,7 @@
                       <option value="8"> 8. Grace Worshipers Training </option>
                       <option value="9"> 9. Penyerahan Anak </option>
                       <option value="10"> 10. Baptisan Air </option>
-                      <option value="11"> 11. Worship Mission Waisai </option>
+                      <option value="11"> 11. Perjamuan Kasih </option>
                       <option value="12"> 12. God's Grace Music Mission </option>
                       <option value="13"> 13. Berbagi Kasih </option>
                       <option value="14"> 14. Kunjungan Akhir Tahun </option>
