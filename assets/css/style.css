@@ -730,10 +730,41 @@ article h4 {
 }
 
 /* ukuran kontak ygsm saat layar hp besar*/
-@media (min-width: 1280px) and (max-width: 1300px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .contactwaygsm {
     margin-top: -265px;
     margin-left: 230px;
+    margin-bottom: 0;
+  }
+  #hrfWA {
+    font-size: 1.1rem;
+  }
+  .contactwaygsm .waygsm-button {
+    width: 390px;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  .contactwaygsm .IconWhatsappygsm {
+    margin-right: 5px;
+  }
+  .contactwaygsm .IconWhatsappygsm img {
+    height: 45px;
+  }
+  .sosmedygsm {
+    margin-top: -100px;
+    margin-left: 230px;
+  }
+  .sosmedygsm #iconYGSM {
+    height: 30px;
+  }
+  #hurufYGSM {
+    font-size: 0.7rem;
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  .contactwaygsm {
+    margin-top: -265px;
+    margin-left: 150px;
     margin-bottom: 0;
   }
   #hrfWA {
@@ -852,6 +883,31 @@ article h4 {
   #iconYGSM {
     font-size: 0.4rem;
     height: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .contactwaygsm {
+    margin-top: -100px;
+    margin-left: 55px;
+    margin-bottom: 0;
+  }
+  #hrfWA {
+    font-size: 0.5rem;
+  }
+  .contactwaygsm .waygsm-button {
+    width: 140px;
+    padding: 1px 2px;
+  }
+  .sosmedygsm {
+    margin-left: 70px;
+  }
+  #iconYGSM {
+    margin-right: 5px;
+    height: 20px;
+  }
+  #hurufYGSM {
+    font-size: 0.4rem;
+    padding: 2px 3px;
   }
 }
 /* css kontak wa ygsm */
