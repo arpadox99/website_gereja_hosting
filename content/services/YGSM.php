@@ -84,7 +84,7 @@
             </div>
             <div class=" row">
               <div class="content" id="textbunda">
-                <p>Pdp <span style="font-weight: bold; word-spacing: .1px;"> Ny. Barsalin Matulatuwa, M.Th </span> menikah dengan Pdm Jimmy Titahena S.Th. dan memiliki 2 orang anak (Gavrila Melody Titahena dan Gavriel Harmony Titahena).</p>
+                <p>Pdp <span style="font-weight: bold; word-spacing: 0.1px;"> Ny. Barsalin Matulatuwa, M.Th </span> menikah dengan Pdm Jimmy Titahena S.Th. dan memiliki 2 orang anak (Gavrila Melody Titahena dan Gavriel Harmony Titahena).</p>
                 <p>Menyelesaikan S1 di Sekolah Tinggi Teologia Bethany Surabaya pada tahun 2004 dan S2 di Sekolah Tinggi Teologia Injili Indonesia (STTII) pada tahun 2013 dan sebagai Dosen pada Sekolah Tinggi Theologia Injili Indonesia Ambon.</p>
               </div>
             </div>
