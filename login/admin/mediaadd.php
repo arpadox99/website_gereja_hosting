@@ -41,15 +41,16 @@
                       <option value="3"> 3. Persembahan Pujian </option>
                       <option value="4"> 4. Ibadah Sektor </option>
                       <option value="5"> 5. God's Grace Kids </option>
-                      <option value="6"> 6. YGSM </option>
+                      <option value="6"> 6. Youth Grace Spirit Ministry </option>
                       <option value="7"> 7. Ministries </option>
-                      <option value="8"> 8. Grace Worshipers Training </option>
+                      <option value="8"> 8. Grace Worshippers Training </option>
                       <option value="9"> 9. Penyerahan Anak </option>
                       <option value="10"> 10. Baptisan Air </option>
                       <option value="11"> 11. Perjamuan Kasih </option>
                       <option value="12"> 12. God's Grace Music Mission </option>
-                      <option value="13"> 13. Berbagi Kasih </option>
-                      <option value="14"> 14. Kunjungan Akhir Tahun </option>
+                      <option value="13"> 13. Retreat Jemaat </option>
+                      <option value="14"> 14. Berbagi Kasih </option>
+                      <option value="15"> 15. Kunjungan Akhir Tahun </option>
                     </select>
                   </div>
                 </div>

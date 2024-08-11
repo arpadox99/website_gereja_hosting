@@ -128,15 +128,16 @@
           <li> 3. Persembahan Pujian </li>
           <li> 4. Ibadah Sektor </li>
           <li> 5. God's Grace Kids </li>
-          <li> 6. YGSM </li>
+          <li> 6. Youth Grace Spirit Ministry </li>
           <li> 7. Ministries </li>
-          <li> 8. Grace Worshipers Training </li>
+          <li> 8. Grace Worshippers Training </li>
           <li> 9. Penyerahan Anak </li>
           <li> 10. Baptisan Air </li>
           <li> 11. Perjamuan Kasih </li>
           <li> 12. God's Grace Music Mission </li>
-          <li> 13. Berbagi Kasih </li>
-          <li> 14. Kunjungan Akhir Tahun </li>
+          <li> 13. Retreat Jemaat </li>
+          <li> 14. Berbagi Kasih </li>
+          <li> 15. Kunjungan Akhir Tahun </li>
         </ul>
       </div>
       <div class="modal-footer">

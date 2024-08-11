@@ -707,7 +707,7 @@
       </div>
     </div> <br>
     <!-- Caption Pisah -->
-    <div class="container mt-4" id="berbagi kasih - BK">
+    <div class="container mt-4" id="retreat jemaat - RJ">
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
@@ -764,14 +764,15 @@
         </button>
       </div>
     </div> <br>
-    <div class="container mt-4" id="kunjungan akhir tahun - KAT">
+    <!-- Caption Pisah -->
+    <div class="container mt-4" id="berbagi kasih - BK">
       <?php
       include '../config/config.php';
       // Ambil role dari query parameter atau variabel lain
       $role = isset($_GET['role']) ? $_GET['role'] : '14'; // Ganti dengan nilai role yang sesuai
 
-      // Ambil data gambar dari database berdasarkan role
-      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+      // Ambil data gambar, judul, dan deskripsi dari database berdasarkan role
+      $cari = $con->prepare("SELECT gambar_slider, judul_slider, deskripsi_slider FROM slider WHERE role = ?");
       $cari->bindParam(1, $role);
       $cari->execute();
 
@@ -783,6 +784,63 @@
           <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
           <?php for ($i = 0; $i < $jumlah; $i++) : ?>
             <button type="button" data-bs-target="#carousel14" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
+          <?php endfor; ?>
+        </div>
+        <div class="carousel-inner">
+          <?php
+          $isActive = true; // Menandai slide pertama sebagai aktif
+          $slideData = []; // Array untuk menyimpan data slide
+
+          // Loop untuk menampilkan slide berdasarkan data dari database
+          while ($row = $cari->fetch(PDO::FETCH_ASSOC)) {
+            $slideData[] = $row;
+          }
+
+          foreach ($slideData as $index => $slide) :
+            $gambar_slider = htmlspecialchars($slide['gambar_slider']); // Mengamankan output gambar dari database
+            $judul_slider = htmlspecialchars($slide['judul_slider']); // Mengamankan output judul dari database
+            $deskripsi_slider = htmlspecialchars($slide['deskripsi_slider']); // Mengamankan output deskripsi dari database
+            $path_to_image = "../login/img/Media/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+          ?>
+            <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
+              <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide">
+              <div class="carousel-caption d-md-block">
+                <h3><?= htmlspecialchars_decode($judul_slider) ?></h3>
+                <p><?= htmlspecialchars_decode($deskripsi_slider) ?></p>
+              </div>
+            </div>
+          <?php
+            $isActive = false; // Menonaktifkan status aktif setelah slide pertama
+          endforeach;
+          ?>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel14" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel14" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div> <br>
+    <div class="container mt-4" id="kunjungan akhir tahun - KAT">
+      <?php
+      include '../config/config.php';
+      // Ambil role dari query parameter atau variabel lain
+      $role = isset($_GET['role']) ? $_GET['role'] : '15'; // Ganti dengan nilai role yang sesuai
+
+      // Ambil data gambar dari database berdasarkan role
+      $cari = $con->prepare("SELECT gambar_slider FROM slider WHERE role = ?");
+      $cari->bindParam(1, $role);
+      $cari->execute();
+
+      $jumlah = $cari->rowCount();
+      ?>
+
+      <div id="carousel15" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div class="carousel-indicators">
+          <!-- Loop untuk membuat indikator slide berdasarkan jumlah slide ($jumlah) -->
+          <?php for ($i = 0; $i < $jumlah; $i++) : ?>
+            <button type="button" data-bs-target="#carousel15" data-bs-slide-to="<?= $i ?>" <?= $i === 0 ? 'class="active" aria-current="true"' : '' ?> aria-label="Slide <?= $i + 1 ?>"></button>
           <?php endfor; ?>
         </div>
         <div class="carousel-inner">
@@ -804,10 +862,10 @@
         <div class="carousel-caption d-md-block">
           <h3> KUNJUNGAN AKHIR TAHUN </h3>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel14" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel15" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel14" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel15" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>

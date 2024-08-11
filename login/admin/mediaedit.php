@@ -101,15 +101,16 @@ if (!$data) {
                           <option value="3" <?= ($role == 3) ? 'selected' : '' ?>> 3. Persembahan Pujian </option>
                           <option value="4" <?= ($role == 4) ? 'selected' : '' ?>> 4. Ibadah Sektor </option>
                           <option value="5" <?= ($role == 5) ? 'selected' : '' ?>> 5. God's Grace Kids </option>
-                          <option value="6" <?= ($role == 6) ? 'selected' : '' ?>> 6. YGSM </option>
+                          <option value="6" <?= ($role == 6) ? 'selected' : '' ?>> 6. Youth Grace Spirit Ministries </option>
                           <option value="7" <?= ($role == 7) ? 'selected' : '' ?>> 7. Ministries </option>
-                          <option value="8" <?= ($role == 8) ? 'selected' : '' ?>> 8. Grace Worshipers Training </option>
+                          <option value="8" <?= ($role == 8) ? 'selected' : '' ?>> 8. Grace Worshippers Training </option>
                           <option value="9" <?= ($role == 9) ? 'selected' : '' ?>>> 9. Penyerahan Anak </option>
                           <option value="10" <?= ($role == 10) ? 'selected' : '' ?>>> 10. Baptisan Air </option>
                           <option value="11" <?= ($role == 11) ? 'selected' : '' ?>>> 11. Perjamuan Kasih </option>
                           <option value="12" <?= ($role == 12) ? 'selected' : '' ?>>> 12. God's Grace Music Mission </option>
-                          <option value="13" <?= ($role == 13) ? 'selected' : '' ?>>> 13. Berbagi Kasih </option>
-                          <option value="14" <?= ($role == 14) ? 'selected' : '' ?>>> 14. Kunjungan Akhir Tahun </option>
+                          <option value="13" <?= ($role == 13) ? 'selected' : '' ?>>> 13. Retreat Jemaat </option>
+                          <option value="14" <?= ($role == 14) ? 'selected' : '' ?>>> 14. Berbagi Kasih </option>
+                          <option value="15" <?= ($role == 15) ? 'selected' : '' ?>>> 15. Kunjungan Akhir Tahun </option>
                         </select>
                       </div>
                     </div>

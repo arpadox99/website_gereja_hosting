@@ -871,7 +871,7 @@ article h4 {
     font-size: 0.7rem;
   }
 }
-@media (min-width: 438px) and (max-width: 767px) {
+@media (min-width: 438px) and (max-width: 768px) {
   .contactwaygsm {
     margin-top: -110px;
     margin-left: 70px;
