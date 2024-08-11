@@ -1,7 +1,7 @@
 Project Akhir ITB STIKOM AMBON :
-1. Saycika M. Ryandra
-2. Gabriel L. Sesa
-3. Welem P. Oraple
+1. Saycika M. Ryandra (200101138)
+2. Gabriel L. Sesa (200101121)
+3. Welem P. Oraple (200101143)
 
 
 WEBSITE MULTIUSER - CRUD ||
