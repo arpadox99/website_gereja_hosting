@@ -78,7 +78,7 @@
           <div class=" row">
             <div class="about-text">
               <h5>Pdp. Ny. Erny J. Nahaklay/Tari, Sm.Th</h5>
-              <p>Pdp. Ny. Erny Julita Nahaklay/Tari, Sm.Th menikah dengan Pdt. Dr. Demianus Nahaklay, M.Th. dan memiliki dua orang anak (Hana Debora Nahaklay dan Haniel Nahaklay).
+              <p>Pdp. Ny. Erny Julita Nahaklay/Tari, Sm.Th. menikah dengan Pdt. Dr. Demianus Nahaklay, M.Th. dan memiliki dua orang anak (Hana Debora Nahaklay dan Haniel Nahaklay).
               </p> 
               <p>
                 Menyelesaikan Diploma 3 pada tahun 1995 di STA (Sekolah Tinggi Alkitab) Salatiga.

@@ -77,8 +77,8 @@
           </div>
           <div class=" row">
             <div class="about-text">
-              <h5>Pdm. Jimmy Titahena, S.Th</h5>
-              <p>Pdm. Jimmy Titahena, S.Th menikah dengan Pdp. Ny. Barsalin Matulatuwa, M.Th dan memiliki 2 anak (Gavrila Melody Titahena dan Gavriel Harmony Titahena).
+              <h5>Pdm. Jimmy Titahena, S.Th.</h5>
+              <p>Pdm. Jimmy Titahena, S.Th. menikah dengan Pdp. Ny. Barsalin Matulatuwa, M.Th. dan memiliki 2 anak (Gavrila Melody Titahena dan Gavriel Harmony Titahena).
               </p>
               <p>
                 Menyelesaikan S1 di Sekolah Tinggi Theologia Injili Indonesia.

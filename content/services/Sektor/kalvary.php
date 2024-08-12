@@ -77,9 +77,9 @@
           </div>
           <div class=" row">
             <div class="about-text">
-              <h5>Pdm. Ny. Sanny Luturmas/Tasane, Dip.Th</h5>
+              <h5>Pdm. Ny. Sanny Luturmas/Tasane, Dip.Th.</h5>
               <p>
-                Pdm. Ny. Sanny Luturmas/Tasane, Dip.Th menikah dengan bapak Junior Richard Luturmas dan memiliki anak (Gadwin Amariosko Brizio Luturmas).
+                Pdm. Ny. Sanny Luturmas/Tasane, Dip.Th. menikah dengan bapak Junior Richard Luturmas dan memiliki anak (Gadwin Amariosko Brizio Luturmas).
                 Menyelesaikan Diploma 3 pada tahun 1991 di Teologia (STM Kate-kate).
               </p>
             </div>

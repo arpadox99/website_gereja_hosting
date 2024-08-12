@@ -77,9 +77,9 @@
           </div>
           <div class=" row">
             <div class="about-text">
-              <h5>Pdp. Lucya. F. Titahena, Dip.Th</h5>
+              <h5>Pdp. Lucya. F. Titahena, Dip.Th.</h5>
               <p>
-                Pdp. Lucya. F. Titahena, Dip.Th menyelesaikan Diploma 3 di STT Tawangmangu - Solo pada tahun 2002.
+                Pdp. Lucya. F. Titahena, Dip.Th. menyelesaikan Diploma 3 di STT Tawangmangu - Solo pada tahun 2002.
               </p>
             </div>
           </div>

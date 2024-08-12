@@ -79,7 +79,7 @@
             <div class="about-text">
               <h5>Pdt. Dr. Demianus Nahaklay, M.Th.</h5>
               <p>
-                Pdt. Dr. Demianus Nahaklay, M.Th. menikah dengan Pdp. Ny. Erny J. Nahaklay/Tari, Sm.Th dan memiliki dua orang anak (Hana Debora Nahaklay dan Haniel Nahaklay).
+                Pdt. Dr. Demianus Nahaklay, M.Th. menikah dengan Pdp. Ny. Erny J. Nahaklay/Tari, Sm.Th. dan memiliki dua orang anak (Hana Debora Nahaklay dan Haniel Nahaklay).
               </p>
               <p>
                 Menyelesaikan D3 pada tahun 1993 di STT Berea Salatiga, S1 di STAKPN Ambon pada tahun 1997,
