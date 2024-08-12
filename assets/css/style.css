@@ -284,16 +284,6 @@ a#text {
 a#text h3 {
   margin-bottom: 15px;
 }
-#SM,
-#IS,
-#IWBI,
-#IPS,
-#DP,
-#YGSM {
-  border-radius: 5%; /* rounded menu services*/
-  width: auto; /* lebar */
-  height: 560px; /* tinggi */
-}
 
 #classSM,
 #classIWBI,
@@ -305,6 +295,7 @@ a#text h3 {
   min-height: 80vh;
   /* Menggunakan flexbox dengan flex-direction: column dan min-height: 80vh untuk membuat wrapper mengambil setidaknya tinggi viewport. */
 }
+#classIS img,
 #classSM img,
 #classIWBI img,
 #classIPS img,

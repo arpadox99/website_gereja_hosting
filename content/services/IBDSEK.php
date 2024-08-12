@@ -57,7 +57,7 @@
   <!-- navBar -->
 
   <!-- isi -->
-  <div class="container">
+  <div class="container" id="classIS">
     <div class="row text-church" id="bannerserv">
       <h2 id="textserv"> Ibadah Sektor </h2>
       <img draggable="false" src="../../img/Service/IS1.jpg" class="mx-auto d-block img-fluid" alt="IS" id="ISpage">
