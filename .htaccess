@@ -23,3 +23,9 @@ RewriteRule ^ - [L]
   ExpiresByType image/gif "access 1 year"
   ExpiresByType image/webp "access 1 year"
 </IfModule>
+
+# Test if mod_rewrite is enabled
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^testmodrewrite$ /index.php [L]
+</IfModule>
