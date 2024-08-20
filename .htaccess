@@ -4,7 +4,7 @@ RewriteEngine On
 # Replace "login" with the actual name of your folder
 RewriteCond %{HTTP_HOST} ^(www\.)?projectwebsitegereja\.my\.id$ [NC]
 RewriteCond %{REQUEST_URI} ^/login/ [NC]
-RewriteRule ^(.*)$ - [F,L]
+RewriteRule ^(.*)$ /error403.html [R=403,L]
 
 <IfModule mod_expires.c>
   ExpiresActive On
