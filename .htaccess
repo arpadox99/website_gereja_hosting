@@ -3,7 +3,7 @@ RewriteEngine On
 
 # Replace "admin" with the actual name of your subdomain folder
 RewriteCond %{HTTP_HOST} ^(www\.)?projectwebsitegereja\.my\.id$ [NC]
-RewriteCond %{REQUEST_URI} ^/login/admin/ [NC]
+RewriteCond %{REQUEST_URI} ^/login/ [NC]
 RewriteRule ^ - [F,L]
 
 # If accessing from the correct subdomain (e.g., admin.projectwebsitegereja.my.id), allow access
