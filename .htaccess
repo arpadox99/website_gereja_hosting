@@ -1,14 +1,19 @@
-# Prevent direct access to the "login/admin" folder from the main domain
+# Prevent direct access to the entire "login" folder from the main domain
 RewriteEngine On
 
-# Replace "admin" with the actual name of your subdomain folder
+# Block access to the entire "login" folder if accessed from the main domain
 RewriteCond %{HTTP_HOST} ^(www\.)?projectwebsitegereja\.my\.id$ [NC]
 RewriteCond %{REQUEST_URI} ^/login/ [NC]
 RewriteRule ^ - [F,L]
 
-# If accessing from the correct subdomain (e.g., admin.projectwebsitegereja.my.id), allow access
+# Allow access to the "login/admin" folder only if accessed from the admin subdomain
 RewriteCond %{HTTP_HOST} ^admin\.projectwebsitegereja\.my\.id$ [NC]
 RewriteCond %{REQUEST_URI} ^/login/admin/ [NC]
+RewriteRule ^ - [L]
+
+# Allow access to other parts of the "login" folder from the admin subdomain
+RewriteCond %{HTTP_HOST} ^admin\.projectwebsitegereja\.my\.id$ [NC]
+RewriteCond %{REQUEST_URI} ^/login/ [NC]
 RewriteRule ^ - [L]
 
 <IfModule mod_expires.c>
