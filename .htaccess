@@ -1,12 +1,12 @@
-# Prevent direct access to the entire "login" folder from the main domain
+# Prevent direct access to the "login" folder from the main domain
 RewriteEngine On
 
-# Block access to the entire "login" folder if accessed from the main domain
+# Block access to the "login" folder if accessed from the main domain
 RewriteCond %{HTTP_HOST} ^(www\.)?projectwebsitegereja\.my\.id$ [NC]
-RewriteCond %{REQUEST_URI} ^/login/ [NC]
+RewriteCond %{REQUEST_URI} ^/login [NC]
 RewriteRule ^ - [F,L]
 
-# Allow access to the "login/admin" folder only if accessed from the admin subdomain
+# Allow access to "login/admin" from the admin subdomain
 RewriteCond %{HTTP_HOST} ^admin\.projectwebsitegereja\.my\.id$ [NC]
 RewriteCond %{REQUEST_URI} ^/login/admin/ [NC]
 RewriteRule ^ - [L]
