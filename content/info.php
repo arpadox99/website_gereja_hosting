@@ -91,7 +91,7 @@ require_once '../config/config.php';
           <div class="row">
             <div class="table-responsive table-condensed">
               <table class="table table-striped align-middle table-bordered mt-2">
-                <caption> <q>Jadwal Ibadah di gereja GBI God's Grace Pusat Kota Ambon</q> </caption>
+                <caption> <q>Jadwal Ibadah di GBI God's Grace Pusat Kota Ambon</q> </caption>
                 <thead class="table">
                   <tr class="align-middle">
                     <th> HARI </th>

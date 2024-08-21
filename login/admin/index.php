@@ -44,7 +44,7 @@ if (empty($_SESSION['user-websitegereja'])) {
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="../logout.php">
-                                <i class="fas fa-right-from-bracket"></i> LogOut
+                                <i class="fas fa-right-from-bracket"></i> Logout
                             </a>
                         </li>
                     </ul>
