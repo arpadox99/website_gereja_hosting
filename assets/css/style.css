@@ -284,6 +284,15 @@ a#text {
 a#text h3 {
   margin-bottom: 15px;
 }
+#SM,
+#IS,
+#IWBI,
+#IPS,
+#DP,
+#YGSM {
+  border-radius: 5%;
+  height: auto; /* tinggi */
+}
 
 #classSM,
 #classIWBI,
