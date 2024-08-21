@@ -60,9 +60,9 @@
 <body>
   <div class="container-fluid px-4">
     <div class="content">
-      <h1 class="mt-4"> Halaman Admin <span><i class="fa-solid fa-cross"></i></span></h1>
+      <h1 class="mt-4"> Dashboard Admin <span><i class="fa-solid fa-cross"></i></span></h1>
       <ol class="breadcrumb mb-4">
-        <li class="breadcrumb-item active">Tampilan Website Gereja GBI GOD'S GRACE</li>
+        <li class="breadcrumb-item active">Tampilan untuk Website Gereja GBI GOD'S GRACE</li>
       </ol>
       <div class="iframe-container">
         <iframe src="https://projectwebsitegereja.my.id/"></iframe>
