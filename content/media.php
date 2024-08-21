@@ -78,7 +78,7 @@
           // Loop untuk menampilkan slide berdasarkan data dari database
           while ($row = $cari->fetch(PDO::FETCH_ASSOC)) :
             $gambar_slider = htmlspecialchars($row['gambar_slider']); // Mengamankan output gambar dari database
-            $path_to_image = "./login/img/Media/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
+            $path_to_image = "login/img/Media/" . htmlspecialchars($role) . "/" . $gambar_slider; // Menentukan path gambar di folder 
           ?>
             <div class="carousel-item <?= $isActive ? 'active' : '' ?>">
               <img src="<?= $path_to_image ?>" class="mx-auto d-block img-fluid w-100" alt="Slide" loading="lazy">
